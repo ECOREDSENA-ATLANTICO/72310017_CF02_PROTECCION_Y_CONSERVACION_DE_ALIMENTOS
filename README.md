@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **72310017_CF02_PROTECCION_Y_CONSERVACION_DE_ALIMENTOS**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/72310017_CF02_PROTECCION_Y_CONSERVACION_DE_ALIMENTOS](https://ecoredsena-atlantico.github.io/72310017_CF02_PROTECCION_Y_CONSERVACION_DE_ALIMENTOS)
 
 #
 
