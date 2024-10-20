@@ -17,3 +17,398 @@
 
   100%
     transform: translateY(0px)
+
+.banner-interno
+  height: 114px
+.banner-principal .tarjeta
+  background-position: inherit !important
+    
+.titulo-segundo:after
+  border-left-color: #EB6F2D !important
+
+.fondo_1_2
+  background-image: url('../assets/curso/images/tema1/img_24.png') !important
+  // background-repeat: no-repeat
+
+.fondo_1
+  // background-image: url('../assets/curso/images/tema1/img_29.png') !important
+  // background-repeat: no-repeat
+
+.fondo_1_1
+  // background-image: url('../assets/curso/images/tema1/img_30.png') !important
+  // background-repeat: no-repeat
+
+.fondo_2
+  // background-image: url('../assets/curso/images/tema1/img_27.png') !important
+  background-repeat: no-repeat
+  background-position: top right
+  background-size: auto
+
+.fondo_3
+  // background-image: url('../assets/curso/images/tema1/img_11.png') !important
+  background-repeat: no-repeat
+  background-position: top right
+  background-size: auto
+
+.tarjeta.bg-5
+  background-color: #FFE7D7 !important
+
+.tarjeta.bg-6
+  background-color: #F5F0E4 !important
+
+.fondo_4
+  // background-image: url('../assets/curso/images/tema1/img_20.png') !important
+  // background-repeat: no-repeat
+  // background-position: right
+  // backgroind-color: #EB6F2D !important
+
+.fondo_5
+  // background-image: url('../assets/curso/images/tema2/img_2.png') !important
+  background-repeat: no-repeat
+  background-position: top right
+  background-size: auto
+
+.fondo_6
+  // background-image: url('../assets/curso/images/tema2/img_31.png') !important
+  background-repeat: no-repeat
+  background-position: bottom right
+
+.fondo_2_2
+  // background-image: url('../assets/curso/images/tema1/img_20.png') !important
+  // background-repeat: no-repeat
+  // background-position: right
+  // backgroind-color: #EB6F2D !important
+
+.slyder-a 
+  background-color: #ffffff !important
+  border-radius: 15px
+  
+.slyder_1
+  .slyder-a__bullets__item--active
+    background-color: #FF8636
+    border-color: #FF8636
+  .slyder-a__bullets__item
+    background-color: #FF8636
+  .slyder-a__btn--atrs
+    background-color: #008379
+    border-color: #008379
+    color: #ffffff
+  .slyder-a__btn--sigt
+    background-color: #008379
+    border-color: #008379
+    color: #ffffff
+
+.h-100
+  height: 100% !important 
+
+  
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+  h4
+    color: #fff  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #A5D6E8
+      h4
+        color: #12263F  
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 4.2rem ))
+    background-color: #115B77
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+///////// Linea tiempo --------------------------------------
+.linea-tiempo-d__item--selected, .linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content,.tarjeta,.tarjeta--gris
+    background-color: #FFE7D7 !important
+  .linea-tiempo-d__item__number
+    background-color: #FFE7D7 !important
+  .linea-tiempo-d__item__number
+    background-color: #FFE7D7 !important
+  .linea-tiempo-d__item__dots:after
+    border-left: 5px dotted #C7C7C7 !important
+
+.cajon.bg-3
+  background-color: #E9F5F9
+.cajon.bg-3::before
+  background-color: #1D98C6
+
+.cajon.bg-4
+  background-color: #FFE7D7
+.cajon.bg-4::before
+  background-color: #FF8636
+
+  
+//// Tarjetas -------------------------------------
+
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #177A9F
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #E9F5F9
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #D2EAF3 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: 0.8rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+///// utilidades --------------------------------------
+.img65
+  width: 65px  
+.img90
+  width: 90px  
+.img250
+  width: 476px  
+
+.encabezado-tabla
+  background-color: #FFCEAF
+  text-align: center
+
+table, th, td
+  border: 1px solid #E1E1E1
+  border-collapse: collapse
+  
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/interno.png") !important
+  background-repeat: no-repeat
+
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6, .banner-principal__componente h1, .banner-principal p
+  color: #12263F !important
+
+.boton *, .boton--sm *
+  color: #ffffff !important
+
+.banner-interno__titulo__icono
+  background-color: #12263F !important
+
+.pasos-a.color-acento-contenido .pasos-a__circle  
+  background-color: #A79162 !important
+.pasos-a__linea
+  border-color: #A79162 !important
+
+.azul
+  color: #177A9F !important
+  font-weight: bold
+
+.similar-color-primario
+  background-color: #7D6D49 !important
+
+.tarjeta-numerada.bg-06
+  border-color: #7D6D49
+  background-color: #FAF8F2
+
+.tarjeta-numerada.bg-06 .tarjeta-numerada__numero
+  background-color: #7D6D49
+
+.tarjeta-numerada.bg-06 .tarjeta-numerada__numero div
+  color: #ffffff
+
+
+.tarjeta-numerada.bg-07
+  border-color: #995120
+  background-color: #FFF3EB
+
+.tarjeta-numerada.bg-07 .tarjeta-numerada__numero
+  background-color: #995120
+
+.tarjeta-numerada.bg-07 .tarjeta-numerada__numero div
+  color: #ffffff
+
+.text-verde
+  color: #115B77
+
+.fondo-dorado
+  background-color: #D9C394
+
+.parrafo, .img_parrafo
+    display: inline-block
+    vertical-align: middle /* Alineación vertical */
+
+.img_1
+  background-image: url("../assets/curso/images/tema1/img_11.png") !important
+  background-repeat: no-repeat
+  background-position: right 30px center /* Centra la imagen */
+  background-size: auto /* Ajusta la imagen al tamaño del div */
+
+.img_2
+  background-image: url("../assets/curso/images/tema1/img_12.png") !important
+  background-repeat: no-repeat
+  background-position: right 30px center /* Centra la imagen */
+  background-size: auto /* Ajusta la imagen al tamaño del div */
+    
+.img_3
+  background-image: url("../assets/curso/images/tema1/img_13.png") !important
+  background-repeat: no-repeat
+  background-position: right 30px center /* Centra la imagen */
+  background-size: auto /* Ajusta la imagen al tamaño del div */
+
+.img_4
+  background-image: url("../assets/curso/images/tema1/img_14.png") !important
+  background-repeat: no-repeat
+  background-position: right 30px center /* Centra la imagen */
+  background-size: auto /* Ajusta la imagen al tamaño del div */
+
+.img_5
+  background-image: url("../assets/curso/images/tema1/img_15.png") !important
+  background-repeat: no-repeat
+  background-position: right 30px center /* Centra la imagen */
+  background-size: auto /* Ajusta la imagen al tamaño del div */
+
+.img_6
+  background-image: url("../assets/curso/images/tema1/img_16.png") !important
+  background-repeat: no-repeat
+  background-position: right 30px center /* Centra la imagen */
+  background-size: auto /* Ajusta la imagen al tamaño del div */
+
+.tarjeta-numerada.bg-08
+  border-color: #115B77
+  background-color: #E9F5F9
+
+.tarjeta-numerada.bg-08 .tarjeta-numerada__numero
+  background-color: #115B77
+
+.tarjeta-numerada.bg-08 .tarjeta-numerada__numero div
+  color: #ffffff
+
+.color-negro
+  background-color: #000000 !important
+
+.color-terciario
+  background-color: #92DCD7 !important
+
+.cd
+  display: inline-block
+  padding-top: 60px !important
+  height: 100%
+
+.color-rosa
+  background-color: #FFE7D7 !important
+
+.color-rosa-claro
+  background-color: #F5F0E4 !important
+  
+
+.bg-color-1
+  background-image: url("../assets/curso/images/tema1/img_25.png") !important
+  background-repeat: no-repeat 
+  height: 82px  
+
+// .bg-color-1
+//   display: flex
+//   align-items: center
+//   background-color: #d2b078 /* Color de fondo */
+//   padding: 10px 20px
+//   border-radius: 30px
+//   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+//   width: max-content
+
+.icon img
+  width: 40px /* Tamaño de la imagen */
+  margin-right: 10px
+
+.tarjeta.color-acento-botones
+  background-color: #ffffff !important
+  border-color: #008379 !important
+  border-width: 3px
+  border-style: solid
+  // border-color: black
+  
+.texto-color-acento-botones
+  color: #008379 !important
+
+.img-infografica__item, .img-infografica-b__item
+  width: 3.5% !important
+  border-width: 2px !important
+  border-style: solid !important
+  border-color: #fff !important
+  border-radius: 25px !important
+
+.pasos-a.color-acento-contenido .pasos-a__linea .hor-line
+  border-top-color: #A79162 !important
+
+.pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea
+  border-color: #A79162 !important
+
+.pasos-a.color-acento-contenido .pasos-a__numero::after
+  border-left-color: #A79162 !important

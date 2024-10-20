@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports = 'Seguridad alimentaria, enfermedades y prevención de riesgos'

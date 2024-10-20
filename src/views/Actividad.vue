@@ -15,9 +15,11 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
-      titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      tema: 'Seguridad alimentaria, enfermedades y prevención de riesgos',
+      titulo:
+        'Explorando los conceptos de seguridad alimentaria, enfermedades y prevención de riesgos.',
+      introduccion:
+        '<b> Objetivo:</b> Determinar el grado de apropiación de los contenidos del componente formativo de seguridad alimentaria, enfermedades y prevención de riesgos.',
       barajarPreguntas: false,
       preguntas: [
         {
