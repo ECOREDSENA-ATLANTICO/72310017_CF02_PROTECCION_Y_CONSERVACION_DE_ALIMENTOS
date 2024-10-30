@@ -56,6 +56,9 @@
 .tarjeta.bg-6
   background-color: #F5F0E4 !important
 
+.tarjeta.bg-7
+  background-color: #115B77
+
 .fondo_4
   // background-image: url('../assets/curso/images/tema1/img_20.png') !important
   // background-repeat: no-repeat
@@ -63,7 +66,7 @@
   // backgroind-color: #EB6F2D !important
 
 .fondo_5
-  // background-image: url('../assets/curso/images/tema2/img_2.png') !important
+  background-image: url('../assets/curso/images/tema3/img_16.png') !important
   background-repeat: no-repeat
   background-position: top right
   background-size: auto
@@ -142,6 +145,19 @@
   .linea-tiempo-d__item__dots:after
     border-left: 5px dotted #C7C7C7 !important
 
+
+///////// Linea tiempo --------------------------------------
+.color_azul
+  .linea-tiempo-d__item--selected, .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content,.tarjeta,.tarjeta--gris
+      background-color: #D2EAF3 !important
+    .linea-tiempo-d__item__number
+      background-color: #D2EAF3 !important
+    .linea-tiempo-d__item__number
+      background-color: #D2EAF3 !important
+    .linea-tiempo-d__item__dots:after
+      border-left: 5px dotted #C7C7C7 !important
+
 .cajon.bg-3
   background-color: #E9F5F9
 .cajon.bg-3::before
@@ -151,6 +167,13 @@
   background-color: #FFE7D7
 .cajon.bg-4::before
   background-color: #FF8636
+
+
+.cajon.bg-5
+  background-color: #D2EAF3
+.cajon.bg-5::before
+  background-color: #1D98C6
+
 
   
 //// Tarjetas -------------------------------------
@@ -412,3 +435,153 @@ table, th, td
 
 .pasos-a.color-acento-contenido .pasos-a__numero::after
   border-left-color: #A79162 !important
+      
+/* Configuración para pantallas grandes */
+@media (max-width: 1024px) 
+  .tarjeta_hover 
+    width: 48% /* Dos columnas en la primera fila */
+    margin-bottom: 20px /* Espacio entre las filas */
+  
+  /* Para que la tercera tarjeta ocupe toda la fila siguiente */
+  .tarjeta_hover:nth-child(3) 
+    width: 50%
+
+  .tarjeta_figura
+    .col-md-6:first-child
+      width: 100% /* Ocupa todo el ancho en pantallas grandes */
+    
+    .col-md-6:last-child
+      width: 100% /* Ocupa todo el ancho en pantallas grandes */
+    
+  .text_completo
+    .quitar_figura
+      display: none
+
+    .col-7 
+      width: 79% !important
+      
+  .fondo_6
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+  .fondo_2_2
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+  .fondo_2_3
+    .col-md-3
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-9
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+  
+  .fondo_2_4
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+    
+  .fondo_2_5
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      width: 20% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+      
+  .fondo_2_6
+    .col-md-5
+      order: 0 /* Mueve la columna de la imagen hacia arriba */
+      // width: 20% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-7
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+@media (max-width: 430px) 
+  .fondo_2_5
+    .col-md-8
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-4
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+  .text_completo
+    .col-7 
+      width: 58.333333% !important
+    
+  .tarjeta_hover
+    width: 100% /* Ocupaar todo el ancho en pantallas pequenas */
+    /* Para que la tercera tarjeta ocupe toda la fila siguiente */
+
+  .tarjeta_hover:nth-child(3) 
+    width: 100%
+
+.lista-ul--color
+  padding-left: 0 /* Elimina el padding izquierdo por defecto */
+  list-style: none /* Elimina los puntos de la lista */
+
+.lista-ul--color li 
+  display: flex /* Usa Flexbox para alinear elementos en línea */
+  align-items: flex-start /* Alinea los elementos al inicio */
+  margin-bottom: 10px /* Espacio entre los elementos de la lista */
+
+.lista-ul--color li i
+  margin-right: 10px /* Espacio entre el ícono y el texto */
+  flex-shrink: 0 /* Evita que el ícono se reduzca */
+  
+.lista-ul
+  padding-left: 0 /* Elimina el padding izquierdo por defecto */
+  list-style: none /* Elimina los puntos de la lista */
+
+.lista-ul li 
+  display: flex /* Usa Flexbox para alinear elementos en línea */
+  align-items: flex-start /* Alinea los elementos al inicio */
+  margin-bottom: 10px /* Espacio entre los elementos de la lista */
+
+.lista-ul__vineta
+  margin-right: 10px /* Espacio entre el ícono y el texto */
+  flex-shrink: 0 /* Evita que el ícono se reduzca */
+
+.lista-ul__vineta:before
+  color: #CC6B2B 
+  font-size: 2.2rem
+
+.bgr_3
+  background-color: #D0B57A
+  border-radius: 20px
+  display: inline
+  padding: 10px
+  padding-left: 50px
+
+.pst
+  position: absolute
+  width: 70px
+  top: -13px
+  left: -25px
+
+.tabs-b.color-rosado .tabs-b__tab--active
+  background-color: #FFF3EB !important
+.tabs-b__content-item
+  background-color: #FFF3EB !important
+  
+.tabs-b__tab--active
+  border-top: 5px #FF8636 solid !important
+
+.tarjeta.color_blanco
+  border: 5px #ECE1CA solid !important
+
+.text-naranja
+  color: #FF8636 !important

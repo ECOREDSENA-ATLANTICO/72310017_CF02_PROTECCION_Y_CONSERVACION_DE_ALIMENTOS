@@ -19,15 +19,16 @@
     Separador
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Definición y Conceptos Básicos 
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Definición y Conceptos Básicos 
+          img.pst(src='@/assets/curso/images/titulos/img_1.png', alt='') 
 
     p Las Enfermedades Transmitidas por Alimentos (ETA) son infecciones o intoxicaciones resultantes del consumo de alimentos contaminados, generalmente por microorganismos patógenos como bacterias, virus, y parásitos, o sustancias químicas nocivas.
 
     .tarjeta.tarjeta.fondo_1_2.p-4.slyder_1.bg-01.mb-3
       SlyderA(tipo="b")
         .tarjeta.bg-01.p-4
-          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-5
+          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
             .col-md-6.mb-4.mb-md-0
               h3.mb-3 ¿Qué son las ETAs?
 
@@ -42,7 +43,7 @@
               img(src='@/assets/curso/images/tema1/img_2.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
-          .row.justify-content-center.align-items-center.my-lg-4.p-5
+          .row.justify-content-center.align-items-center.my-lg-4.p-2
             .col-md-6.mb-4.mb-md-0
       
               h3.mb-3 ¿A quiénes afecta?
@@ -58,7 +59,7 @@
                 img(src='@/assets/curso/images/tema1/img_4.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
-          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-5
+          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
             .col-md-6.mb-4.mb-md-0
               h3.mb-3 ¿Cuál es su impacto? 
 
@@ -78,9 +79,10 @@
     Separador
   
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Tipos de ETA 
-  
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Tipos de ETA 
+          img.pst(src='@/assets/curso/images/titulos/img_2.png', alt='') 
+
     p.mb-4 Los microrganismos en los alimentos pueden causar alteraciones de dos tipos: <em>Alteración del poder nutritivo y de las propiedades organolépticas.</em> Para el caso de las enfermedades que pueden ocasionar en el hombre, estas pueden ser infecciones, intoxicaciones o alergias. Por lo tanto, las enfermedades transmitidas por alimentos son un conjunto de enfermedades que resultan de la ingestión de alimentos contaminados con algunos de los siguientes elementos:
 
     .row.justify-content-center.mb-5
@@ -112,7 +114,7 @@
           h4.mb-3 Alimentos que naturalmente pueden contener sustancias tóxicas.
           p Moluscos, vegetales, hongos.
   
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-2
       h4.mb-5.text-center  En general las fuentes de contaminación son diversas. Entre las principales se encuentran:
       .col-md-4.mb-4
         .tarjeta-numerada.bg-06.p-5.h-100.img_1
@@ -160,12 +162,13 @@
     Separador
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Según el mecanismo de acción 
- 
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Según el mecanismo de acción
+          img.pst(src='@/assets/curso/images/titulos/img_3.png', alt='') 
+
     .row.justify-content-center.mb-3
       .col-lg-8.mb-4
-        LineaTiempoD
+        LineaTiempoD.color_azul
           p(numero="1" titulo="Infecciones") Causadas por la ingestión de alimentos contaminados con microorganismos vivos (bacterias, virus o parásitos) que se multiplican en el intestino y producen síntomas. 
           //- .tarjeta.fondo-dorado.p-4.h-100.text-center
           //-   p Ejemplos: <br> Salmonelosis, Shigelosis, Campylobacteriosis, Listeriosis, Hepatitis A, Norovirus, Rotavirus.
@@ -182,11 +185,12 @@
     Separador
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Según el tipo de agente causante  
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Según el tipo de agente causante
+          img.pst(src='@/assets/curso/images/titulos/img_4.png', alt='') 
 
     .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -195,7 +199,7 @@
             h4.mb-3.text-center Bacterias
             p.mb-0 La mayoría de las ETAs son causadas por bacterias. Ejemplos: Salmonella, <em>Escherichia coli, Listeria monocytogenes, Campylobacter jejuni, Clostridium botulinum, Bacillus cereus, Staphylococcus aureus.</em>
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -204,7 +208,7 @@
             h4.mb-3.text-center Virus
             p.mb-0 Algunos ejemplos de virus que causan ETAs: virus de la hepatitis A, Norovirus, Rotavirus.
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -213,7 +217,7 @@
             h4.mb-3.text-center Hongos
             p.mb-0 Los hongos pueden producir micotoxinas que causan intoxicaciones. Ejemplos: <em>Aspergillus, Penicillium, Fusarium.</em>
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -222,7 +226,7 @@
             h4.mb-3.text-center Parásitos
             p.mb-0 Algunos parásitos que causan ETAs: <em>Cryptosporidium, Giardia lamblia, Toxoplasma gondii.</em>
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -232,7 +236,7 @@
             p.mb-0 Las toxinas pueden estar presentes en los alimentos de manera natural o ser producidas por microorganismos. Ejemplos: toxinas de las algas, micotoxinas producidas por hongos, toxinas de algunos mariscos.
 
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
