@@ -1,14 +1,44 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 63%
+    right: 84%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 36%
+    right: 90%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 12%
+    right: 77%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 5%
+    right: 54%
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 31%
+  &-6
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 42%
+    right: 12%
+  &-7
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 59%
+    right: 12%
+  &-8
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 81%
+    right: 28%
 
 
 @keyframes float1
@@ -134,9 +164,22 @@
       p
         font-size: 0.85em
 
+
+///////// Linea tiempo --------------------------------------
+.color_azul
+  .linea-tiempo-d__item--selected, .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #D2EAF3 !important
+    .linea-tiempo-d__item__number
+      background-color: #D2EAF3 !important
+    .linea-tiempo-d__item__number
+      background-color: #D2EAF3 !important
+    .linea-tiempo-d__item__dots:after
+      border-left: 5px dotted #C7C7C7 !important
+
 ///////// Linea tiempo --------------------------------------
 .linea-tiempo-d__item--selected, .linea-tiempo-d__item--selected
-  .linea-tiempo-d__item__content,.tarjeta,.tarjeta--gris
+  .linea-tiempo-d__item__content
     background-color: #FFE7D7 !important
   .linea-tiempo-d__item__number
     background-color: #FFE7D7 !important
@@ -145,18 +188,6 @@
   .linea-tiempo-d__item__dots:after
     border-left: 5px dotted #C7C7C7 !important
 
-
-///////// Linea tiempo --------------------------------------
-.color_azul
-  .linea-tiempo-d__item--selected, .linea-tiempo-d__item--selected
-    .linea-tiempo-d__item__content,.tarjeta,.tarjeta--gris
-      background-color: #D2EAF3 !important
-    .linea-tiempo-d__item__number
-      background-color: #D2EAF3 !important
-    .linea-tiempo-d__item__number
-      background-color: #D2EAF3 !important
-    .linea-tiempo-d__item__dots:after
-      border-left: 5px dotted #C7C7C7 !important
 
 .cajon.bg-3
   background-color: #E9F5F9
@@ -294,12 +325,16 @@ table, th, td
   color: #177A9F !important
   font-weight: bold
 
+.tarjeta.azul_claro
+  background-color: #E9F5F9
+  border-radius: 20px
+
 .similar-color-primario
   background-color: #7D6D49 !important
 
 .tarjeta-numerada.bg-06
-  border-color: #7D6D49
-  background-color: #FAF8F2
+  border-color: #F5F0E4
+  background-color: #F5F0E4
 
 .tarjeta-numerada.bg-06 .tarjeta-numerada__numero
   background-color: #7D6D49
@@ -309,8 +344,8 @@ table, th, td
 
 
 .tarjeta-numerada.bg-07
-  border-color: #995120
-  background-color: #FFF3EB
+  border-color: #FFE7D7
+  background-color:#FFE7D7
 
 .tarjeta-numerada.bg-07 .tarjeta-numerada__numero
   background-color: #995120
@@ -441,17 +476,14 @@ table, th, td
   .tarjeta_hover 
     width: 48% /* Dos columnas en la primera fila */
     margin-bottom: 20px /* Espacio entre las filas */
-  
-  /* Para que la tercera tarjeta ocupe toda la fila siguiente */
-  .tarjeta_hover:nth-child(3) 
-    width: 50%
 
   .tarjeta_figura
     .col-md-6:first-child
       width: 100% /* Ocupa todo el ancho en pantallas grandes */
     
     .col-md-6:last-child
-      width: 100% /* Ocupa todo el ancho en pantallas grandes */
+      width: 70% /* Ocupa todo el ancho en pantallas grandes */
+      margin-top: 20px
     
   .text_completo
     .quitar_figura
@@ -486,11 +518,11 @@ table, th, td
   
   .fondo_2_4
     .col-md-4
-      order: -1 /* Mueve la columna de la imagen hacia arriba */
-      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      order: -1
+      width: 40%
 
     .col-md-8
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
     
   .fondo_2_5
     .col-md-4
@@ -508,8 +540,20 @@ table, th, td
 
     .col-md-7
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      
+  .tarjeta_ordenadas
+    .col-md-6.img_tarjeta
+      order: 0
+      width: 40%
 
-@media (max-width: 430px) 
+    .col-md-6
+      width: 100%
+      .col-5
+        order: -1
+        width: 20%
+        display: none
+
+@media (max-width: 425px) 
   .fondo_2_5
     .col-md-8
       order: -1 /* Mueve la columna de la imagen hacia arriba */
@@ -525,9 +569,6 @@ table, th, td
   .tarjeta_hover
     width: 100% /* Ocupaar todo el ancho en pantallas pequenas */
     /* Para que la tercera tarjeta ocupe toda la fila siguiente */
-
-  .tarjeta_hover:nth-child(3) 
-    width: 100%
 
 .lista-ul--color
   padding-left: 0 /* Elimina el padding izquierdo por defecto */
@@ -559,29 +600,374 @@ table, th, td
   color: #CC6B2B 
   font-size: 2.2rem
 
+.lista-ul--color
+  padding-left: 0 /* Elimina el padding izquierdo por defecto */
+  list-style: none /* Elimina los puntos de la lista */
+
+.lista-ul--color li
+  display: flex /* Usa Flexbox para alinear elementos en línea */
+  align-items: flex-start /* Alinea los elementos al inicio */
+  margin-bottom: 10px /* Espacio entre los elementos de la lista */
+
+.lista-ul--color li i
+  margin-right: 10px /* Espacio entre el ícono y el texto */
+  flex-shrink: 0 /* Evita que el ícono se reduzca */
+
+// responsive general
+
+
+@media (min-width: 992px)
+  .col-lg-7
+      flex: 0 0 auto
+      width: 48.333333%
+      
+@media (max-width: 1024px) 
+
+  .tarjeta_responsive
+    .col-lg-3
+      width: 50% !important
+    img
+      width: 20% !important
+
+  .tarjeta_hover 
+    width: 48% /* Dos columnas en la primera fila */
+    margin-bottom: 20px /* Espacio entre las filas */
+  
+  .tarjetas_ordenadas
+    .col-lg-4
+      order: -1 !important
+      width: 40% !important
+    
+    .col-lg-8
+      width: 100% !important
+
+  .tarjetas_ordenadas_linea
+    .col-lg-4
+      order: 0 !important
+      width: 40% !important
+    
+    .col-lg-8
+      width: 100% !important
+
+/* Configuración para pantallas grandes */
+@media (max-width: 768px) 
+  
+  .tarjeta_responsive
+    .col-lg-3
+      width: 50% !important
+    img
+      width: 20% !important
+
+  .tarjeta_enumeradas
+    .col-md-4
+      width: 50% !important
+  
+  .tarjetas_ordenadas
+    .col-lg-4
+      order: -1 !important
+      width: 50% !important
+    
+    .col-lg-8
+      width: 100% !important
+
+  .fondo_2_4
+    .col-md-4
+      order: -1
+      width: 60%
+
+  .ordernar_tabs
+    .col-md-5
+      order: 0 !important
+      width: 50% !important
+      margin: 0px auto
+      margin-top: 20px
+    
+    .col-md-7
+      width: 100% !important
+
+  .tabs-b__tab:last-child
+    border-right: 2px solid #FFCEAF
+
+  .ordenar_figura
+    .col-md-6:first-child
+      width: 80% !important
+    .col-md-6
+      width: 100% !important
+
+  .slyder_ordenado
+    .col-md-6
+      order: -1 !important
+      width: 50% !important
+      margin-top: 20px
+    
+    .col-md-6:first-child
+      width: 100% !important
+
+  .ordenar_img
+    .col-lg-4
+      width: 50%
+
+  .order_linea_tiempo
+    .col-auto
+      order: 1
+      width: 50%
+      margin: 0px auto
+
+  .tarjetas_ordenadas_linea
+    .col-lg-4
+      order: 0 !important
+      width: 60% !important
+    
+    .col-lg-8
+      width: 100% !important
+
+@media (max-width: 425px) 
+  
+  .tarjeta_responsive
+    .col-lg-3
+      width: 100% !important
+    img
+      width: 20% !important
+
+  .tarjeta_enumeradas
+    .col-md-4
+      width: 100% !important
+
+  .tarjeta_hover
+    width: 100% /* Ocupaar todo el ancho en pantallas pequenas */
+
+  .tarjetas_ordenadas
+    .col-lg-4
+      order: -1 !important
+      width: 80% !important
+    
+    .col-lg-8
+      width: 100% !important
+  
+  .tabs-b__tab:last-child
+    border-right: 2px solid #FFF3EB
+
+  .fondo_2_4
+    .col-md-4
+      order: -1
+      width: 80%
+
+  .tabs-b__tab:nth-child(-n+2)
+    border-top: 2px solid #FFF3EB
+
+  .ordernar_tabs
+    .col-md-5
+      order: 0 !important
+      width: 80% !important
+      margin: 0px auto
+      margin-top: 20px
+
+  .slyder_ordenado
+    .col-md-6
+      order: -1 !important
+      width: 80% !important
+      margin-top: 20px
+    
+    .col-md-6:first-child
+      width: 100% !important
+
+  .ordenar_img
+    .col-lg-4
+      width: 100%
+      
+  .order_linea_tiempo
+    .col-auto
+      order: 1
+      width: 100%
+      margin: 0px auto
+
+  .tarjetas_ordenadas_linea
+    .col-lg-4
+      order: 0 !important
+      width: 80% !important
+    
+    .col-lg-8
+      width: 100% !important
+
+  .tarjeta_figura
+    .col-md-6:first-child
+      width: 100% /* Ocupa todo el ancho en pantallas grandes */
+    
+    .col-md-6:last-child
+      width: 100% /* Ocupa todo el ancho en pantallas grandes */
+      margin-top: 20px
+
+  .tarjeta_ordenadas
+    .col-md-6.img_tarjeta
+      order: 0
+      width: 80%
+
+    .col-md-6
+      width: 100%
+      .col-5
+        order: -1
+        width: 20%
+        display: none
+
 .bgr_3
   background-color: #D0B57A
   border-radius: 20px
-  display: inline
+  display: inline-block
   padding: 10px
-  padding-left: 50px
+  padding-left: 69px
+  position: relative
 
 .pst
   position: absolute
   width: 70px
   top: -13px
-  left: -25px
+  left: -9px
 
+/* Media Query para pantallas de 768px o menos */
+@media (max-width: 767px) 
+  .bgr_3 
+    display: ''
+
+/* Media Query específico para pantallas de 425px o menos */
+@media (max-width: 425px) 
+  .bgr_3 
+    display: ''
+
+
+.cajon
+  p
+    margin-bottom: 0px
+
+.bg_img
+  position: relative
+  p, figure, slyder-f .tarjeta
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -48px
+    width: calc(100% + 96px)
+    height: 100%
+    background-image: url(../assets/curso/images/tema1/img_26.png) !important
+    background-repeat: no-repeat      
+  &_0
+    position: relative
+    div
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url(../assets/curso/images/tema1/img_26.png) !important
+      background-repeat: no-repeat 
+  &_1
+    &::before
+      width: calc(100% + 96px)
+      height: 100%
+      // background-image: url(../assets/curso/temas/tema1/img_33.png) !important
+      background-repeat: no-repeat
+  &_2
+    position: relative
+    p, figure, h5, span, .titulo-sexto,.tarjeta
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background: linear-gradient(0deg, rgba(250,248,242,0) 0%, rgba(250,248,242,1) 15%, rgba(250,248,242,1) 85%, rgba(250,248,242,0) 100%)
+  &_3
+    position: relative
+    PasosA
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background: linear-gradient(0deg, rgba(250,248,242,0) 0%, rgba(250,248,242,1) 15%, rgba(250,248,242,1) 85%, rgba(250,248,242,0) 100%)
+  &_4
+    position: relative
+    div
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background: linear-gradient(0deg, rgba(250,248,242,0) 0%, rgba(250,248,242,1) 15%, rgba(250,248,242,1) 85%, rgba(250,248,242,0) 100%)
+  &_5
+    position: relative
+    .tarjeta
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      // background-image: url(../assets/curso/temas/tema2/img_33.png) !important
+      background-repeat: no-repeat 
+  &_6
+    position: relative
+    // .tarjeta
+    //   position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background: linear-gradient(0deg, rgba(250,248,242,0) 0%, rgba(250,248,242,1) 15%, rgba(250,248,242,1) 85%, rgba(250,248,242,0) 100%)
+      
 .tabs-b.color-rosado .tabs-b__tab--active
   background-color: #FFF3EB !important
+.tabs-b
+  border-bottom: 5px solid #FF8636
 .tabs-b__content-item
   background-color: #FFF3EB !important
+  border-top: 2px solid #FFF3EB
+
+.tabs-b__tab
+  border-right: 2px solid #FFCEAF
+  border-bottom: 2px solid #FFF3EB
+  border-top: 2px solid #FFF3EB
+  border-left: 2px solid #FFF3EB !important
   
 .tabs-b__tab--active
   border-top: 5px #FF8636 solid !important
+  border-bottom: 2px solid #FFF3EB !important
 
 .tarjeta.color_blanco
   border: 5px #ECE1CA solid !important
 
 .text-naranja
   color: #FF8636 !important
+  
+.tarjeta
+  p
+    margin-bottom: 0px  
+
+
+.cajon
+  p
+    margin-bottom: 0px

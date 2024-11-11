@@ -26,7 +26,7 @@ export default {
           id: 1,
           texto:
             '¿Cuál es el organismo competente para la compilación de normas, códigos de prácticas, directrices y recomendaciones sobre seguridad alimentaria?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -59,7 +59,7 @@ export default {
           id: 2,
           texto:
             '¿Qué organismo se encarga de vigilar y aplicar las regulaciones de seguridad alimentaria en Colombia?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -92,7 +92,7 @@ export default {
           id: 3,
           texto:
             '¿Qué componente esencial implica la implementación de prácticas destinadas a reducir los peligros potenciales en la producción alimentaria?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_3.png'),
           barajarRespuestas: false,
           opciones: [
             { id: 'a', texto: 'Control de riesgos', esCorrecta: true },
@@ -111,7 +111,7 @@ export default {
           id: 4,
           texto:
             '¿Cuál es el enfoque sistemático para garantizar la seguridad alimentaria mediante la identificación, evaluación y control de riesgos significativos en el proceso productivo de alimentos?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_4.png'),
           barajarRespuestas: false,
           opciones: [
             { id: 'a', texto: 'Sistema HACCP', esCorrecta: true },
@@ -129,7 +129,7 @@ export default {
         {
           id: 5,
           texto: '¿Qué es un alimento contaminado?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -163,7 +163,7 @@ export default {
           id: 6,
           texto:
             '¿Qué tipo de alimento representa un mayor riesgo para la vigilancia en salud pública?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Un alimento contaminado', esCorrecta: true },
@@ -191,7 +191,7 @@ export default {
           id: 7,
           texto:
             '¿Qué define a una enfermedad transmitida por alimentos (ETA)?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_3.png'),
           barajarRespuestas: false,
           opciones: [
             {
@@ -226,7 +226,7 @@ export default {
           id: 8,
           texto:
             '¿Cuál de los siguientes grupos poblacionales es más vulnerable a las ETA?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_4.png'),
           barajarRespuestas: false,
           opciones: [
             {
@@ -252,7 +252,7 @@ export default {
         {
           id: 9,
           texto: '¿Qué impacto económico pueden tener los brotes de ETA?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_2.png'),
           barajarRespuestas: false,
           opciones: [
             {
@@ -272,7 +272,7 @@ export default {
           id: 10,
           texto:
             '¿Qué factor ha contribuido al aumento de la propagación de enfermedades transmitidas por alimentos a nivel global?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_1.png'),
           barajarRespuestas: false,
           opciones: [
             {

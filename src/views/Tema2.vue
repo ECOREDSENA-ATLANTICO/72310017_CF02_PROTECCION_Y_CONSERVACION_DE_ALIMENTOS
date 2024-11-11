@@ -10,8 +10,7 @@
     .row.justify-content-center.align-items-center.mb-3.fondo_2_4
 
       .col-md-8.mb-3
-        p El control de riesgos en la producción de alimentos es un componente esencial que implica la implementación de prácticas y protocolos destinados a identificar, evaluar y gestionar los peligros potenciales que pueden surgir a lo largo del proceso de producción alimentaria. Esto incluye desde la obtención de materias primas seguras hasta la distribución final de los productos. Un sistema clave en este proceso es el Análisis de Peligros y Puntos Críticos de Control (HACCP), que es fundamental para la identificación y gestión eficaz de riesgos. 
-
+        p.mb-3 El control de riesgos en la producción de alimentos es un componente esencial que implica la implementación de prácticas y protocolos destinados a identificar, evaluar y gestionar los peligros potenciales que pueden surgir a lo largo del proceso de producción alimentaria. Esto incluye desde la obtención de materias primas seguras hasta la distribución final de los productos. Un sistema clave en este proceso es el Análisis de Peligros y Puntos Críticos de Control (HACCP), que es fundamental para la identificación y gestión eficaz de riesgos. 
 
         .cajon.color-acento-contenido.p-4
           p.mb-0 El HACCP proporciona un enfoque sistemático para anticipar y prevenir problemas antes de que ocurran, asegurando así que se implementen medidas correctivas en puntos claves del proceso de producción. Mediante el uso de tecnologías avanzadas y la aplicación de procedimientos de control como la pasteurización y la monitorización de la cadena de frío, junto con un sistema HACCP robusto, se busca reducir el riesgo de contaminación, garantizando la seguridad de los alimentos que llegan al consumidor.
@@ -20,31 +19,32 @@
         figure
           img(src='@/assets/curso/images/tema2/img_1.png', alt='Texto que describa la imagen')    
       
-    .row.align-items-center.justify-content-center.mb-0.fondo_1
-      .col-md-10.mb-4
-        .titulo-sexto.color-acento-contenido.mb-0
-            h5 Figura 1. 
-            span Pasos previos a la aplicación del HACCP  
+    .bg_img_2
+      .row.align-items-center.justify-content-center.mb-0
+        .col-md-10.mb-3
+          .titulo-sexto.color-acento-contenido.mb-4
+              h5 Figura 1. 
+              span Pasos previos a la aplicación del HACCP  
 
-        figure
-          img.mb-3(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen').mx-auto
-          figcaption Fuente: https://www.portaldeinocuidad.com/web/que-es-el-haccp/
+          figure
+            img.mb-3(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen').mx-auto.w-75
+            figcaption Fuente: https://www.portaldeinocuidad.com/web/que-es-el-haccp/
 
     Separador
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative El Sistema HACCP 
           img.pst(src='@/assets/curso/images/titulos/img_5.png', alt='') 
 
-    TabsB.color-rosado.mb-5
+    TabsB.color-rosado.mb-4.ordernar_tabs
       .py-4.py-md-5(titulo="Definición" :icono="require('@/assets/curso/images/tema2/img_3.png')")
         .row.p-4
           .col-md-7
             h4 
             p El sistema de Análisis de Peligros y Puntos Críticos de Control (HACCP <em>Hazard Analysis and Critical Control Points</em>), surgió en la década de 1960 con el objetivo de proteger la salud de los astronautas al prevenir enfermedades transmitidas por alimentos durante las misiones espaciales. Este método, desarrollado inicialmente por una industria alimentaria dedicada a elaborar alimentos para la NASA, se ha transformado en un estándar de seguridad alimentaria global, ampliamente adoptado por su eficacia en asegurar la inocuidad de los alimentos.
         
-          .col-md-5.mb-4.mb-md-0
+          .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/images/tema2/img_8.png', alt='Texto que describa la imagen')
       
@@ -54,7 +54,7 @@
             h4 
             p El sistema HACCP identifica y controla los puntos críticos en el proceso de producción donde existen riesgos significativos de contaminación o proliferación de microorganismos en los alimentos. Estos puntos críticos de control son áreas donde se implementan medidas de vigilancia para evitar que los alimentos se contaminen, asegurando que todas las operaciones peligrosas sean monitoreadas y controladas (Codex Alimentarius, CAC/RCP-1, 1969, Rev. 3, 1997).
             
-          .col-md-5.mb-4.mb-md-0
+          .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/images/tema2/img_9.png', alt='Texto que describa la imagen')
       
@@ -64,7 +64,7 @@
             h4 
             p El plan HACCP debe ser adaptado a las características específicas de cada establecimiento y producto, ajustándose a sus condiciones particulares de elaboración. Este enfoque permite concentrar los esfuerzos en corregir los fallos más críticos que comprometen la seguridad y calidad de los alimentos, priorizando la prevención de enfermedades o alteraciones en los productos por sobre cuestiones estéticas o no esenciales.
             
-          .col-md-5.mb-4.mb-md-0
+          .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/images/tema2/img_10.png', alt='Texto que describa la imagen')
       
@@ -75,7 +75,7 @@
             p El Codex Alimentarius describe al HACCP como un sistema que no solo identifica riesgos específicos, sino que también implementa medidas correctivas para asegurar la inocuidad alimentaria. A diferencia de otros métodos, el HACCP se enfoca en la prevención y controles preventivos en vez de depender exclusivamente de la inspección del producto final. 
             p Esto permite anticiparse a los peligros microbiológicos, físicos o químicos antes de que afecten la integridad del producto. Desde su implementación en la industria aeroespacial, el uso del HACCP se ha expandido a otras áreas, como la preparación de comidas para aerolíneas, cadenas de comida rápida, hoteles, y servicios de catering, entre otros. Suéxito en estos sectores se debe a su capacidad para asegurar niveles elevados de seguridad alimentaria, reduciendo riesgos y mejorando la confianza del consumidor en los productos.
 
-          .col-md-5.mb-4.mb-md-0
+          .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/images/tema2/img_11.png', alt='Texto que describa la imagen')
 
@@ -85,7 +85,7 @@
             h4 
             p En numerosos países, el sistema HACCP es ya una exigencia legal, mientras que en otros, incluyendo el nuestro, aunque su aplicación es actualmente voluntaria, se observa una creciente tendencia hacia la obligatoriedad debido a los beneficios que ofrece en términos de seguridad alimentaria. El HACCP es un método proactivo que enfoca toda la cadena de producción de alimentos hacia la prevención eficiente y efectiva de riesgos, asegurando tanto la seguridad del consumidor como la calidad del producto a lo largo de todo el proceso de fabricación.
             
-          .col-md-5.mb-4.mb-md-0
+          .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/images/tema2/img_12.png', alt='Texto que describa la imagen')
       
@@ -96,33 +96,34 @@
           
     Separador
 
-    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
-        h3.bgr_3.position-relative Principios fundamentales del HACCP
-          img.pst(src='@/assets/curso/images/titulos/img_6.png', alt='') 
+    .bg_img_2.mb-3
+      .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
+        .div.mb-4(data-aos="fade-right")
+          h3.bgr_3.position-relative Principios fundamentales del HACCP
+            img.pst(src='@/assets/curso/images/titulos/img_6.png', alt='') 
 
-    .row.align-items-center.justify-content-center.mb-0.fondo_1
-      .col-md-10.mb-2
-        .titulo-sexto.color-acento-contenido.mb-2
-            h5 Figura 2. 
-            span Ciclo de principios aplicados del HACCP
-        
-        .row.justify-content-center.align-items-center
-          .col-md-6.mb-3
-            figure
-              img.mb-3(src='@/assets/curso/images/tema2/img_13.png', alt='Texto que describa la imagen').mx-auto
-              figcaption Fuente: https://www.portaldeinocuidad.com/web/que-es-el-haccp/
-          .col-md-6.mb-3
-            .tarjeta.color_blanco.p-3
-              p El sistema HACCP (<em>Hazard Analysis and Critical Control Points</em> ) es un enfoque sistemático para garantizar la seguridad alimentaria mediante la identificación, evaluación y control de riesgos significativos en el proceso productivo de alimentos. A continuación, se detallan los siete principios fundamentales del HACCP:
+      .row.align-items-center.justify-content-center.mb-0.fondo_1
+        .col-md-10.mb-2
+          .titulo-sexto.color-acento-contenido.mb-2
+              h5 Figura 2. 
+              span Ciclo de principios aplicados del HACCP
+          
+          .row.justify-content-center.align-items-center.ordenar_figura
+            .col-md-6.mb-3
+              figure
+                img.mb-3(src='@/assets/curso/images/tema2/img_13.png', alt='Texto que describa la imagen').mx-auto
+                figcaption Fuente: https://www.portaldeinocuidad.com/web/que-es-el-haccp/
+            .col-md-6.mb-3
+              .tarjeta.color_blanco.p-3
+                p El sistema HACCP (<em>Hazard Analysis and Critical Control Points</em> ) es un enfoque sistemático para garantizar la seguridad alimentaria mediante la identificación, evaluación y control de riesgos significativos en el proceso productivo de alimentos. A continuación, se detallan los siete principios fundamentales del HACCP:
 
-    .row.align-items-center.justify-content-center.mb-0
-      .col-md-12.mb-3
+    .row.align-items-center.justify-content-center.mb-1
+      .col-md-12.mb-2
         .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 3. 
             span Principios fundamentales del HACCP
         
-        .tabla-b.color-acento-contenido.mb-3
+        .tabla-b.color-acento-contenido.mb-2
           table
             caption Fuente: Elaboración propia
             thead.encabezado-tabla
@@ -165,11 +166,11 @@
     Separador
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative Identificación de peligros
           img.pst(src='@/assets/curso/images/titulos/img_7.png', alt='') 
 
-    .row.justify-content-center.align-items-center.mb-2
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-12.mb-3
         .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -179,7 +180,7 @@
             p.mb-2 El primer paso en el sistema HACCP es identificar los peligros potenciales que pueden afectar la inocuidad de los alimentos. Estos peligros pueden ser biológicos, químicos o físicos y pueden estar presentes en cualquier etapa de la producción, desde la cosecha hasta la distribución.
             p.mb-0 <br>A continuación, se presentan algunos ejemplos de peligros en la producción alimentaria.
     
-    .row.mb-3
+    .row.mb-3.ordenar_img
       .col-lg-4.mb-3
         .tarjeta.bg-5.p-4.h-100.fondo_3
           img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_15.png")
@@ -218,7 +219,7 @@
     Separador
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative Establecimiento de Puntos Críticos de Control (PCC)
           img.pst(src='@/assets/curso/images/titulos/img_8.png', alt='') 
 
@@ -232,7 +233,7 @@
 
 
     h4.mb-4.text-center Ejemplos de PCC en diferentes etapas de la producción:
-    .tarjeta.tarjeta.fondo_1_2.p-4.slyder_1.bg-01.mb-3
+    .tarjeta.fondo_1_2.p-4.slyder_1.bg-01.mb-3.slyder_ordenado
       SlyderA(tipo="b")
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
@@ -282,11 +283,11 @@
     Separador
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative Vigilancia y acciones correctivas
           img.pst(src='@/assets/curso/images/titulos/img_9.png', alt='') 
 
-    p Para asegurar la efectividad del sistema HACCP, es necesario monitorizar los PCC y tomar acciones correctivas si se detectan desviaciones. 
+    p.mb-3 Para asegurar la efectividad del sistema HACCP, es necesario monitorizar los PCC y tomar acciones correctivas si se detectan desviaciones. 
 
     .row.justify-content-center.mb-3
       h4.text-center.mb-3 Cómo monitorear y controlar los PCC: 
@@ -341,7 +342,7 @@
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.portaldeinocuidad.com/web/que-es-el-haccp/" target="_blank")
                     span Ir al sitio
-                    i.fas.fa-external-link-alt
+                    i.fas.fa-link
 
 
 </template>
