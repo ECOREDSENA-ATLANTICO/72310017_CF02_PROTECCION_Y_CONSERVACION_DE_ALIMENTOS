@@ -7,15 +7,15 @@
         span 2
       h1 Control de riesgos en la producción de alimentos
       
-    .row.justify-content-center.align-items-center.mb-3.fondo_2_4
+    .row.justify-content-center.align-items-center.mb-3
 
-      .col-md-8.mb-3
+      .col-xl-8.mb-3.order-2.order-xl-1
         p.mb-3 El control de riesgos en la producción de alimentos es un componente esencial que implica la implementación de prácticas y protocolos destinados a identificar, evaluar y gestionar los peligros potenciales que pueden surgir a lo largo del proceso de producción alimentaria. Esto incluye desde la obtención de materias primas seguras hasta la distribución final de los productos. Un sistema clave en este proceso es el Análisis de Peligros y Puntos Críticos de Control (HACCP), que es fundamental para la identificación y gestión eficaz de riesgos. 
 
         .cajon.color-acento-contenido.p-4
           p.mb-0 El HACCP proporciona un enfoque sistemático para anticipar y prevenir problemas antes de que ocurran, asegurando así que se implementen medidas correctivas en puntos claves del proceso de producción. Mediante el uso de tecnologías avanzadas y la aplicación de procedimientos de control como la pasteurización y la monitorización de la cadena de frío, junto con un sistema HACCP robusto, se busca reducir el riesgo de contaminación, garantizando la seguridad de los alimentos que llegan al consumidor.
 
-      .col-md-4.mb-3
+      .col-md-8.col-xl-4.mb-3.order-1.order-xl-2
         figure
           img(src='@/assets/curso/images/tema2/img_1.png', alt='Texto que describa la imagen')    
       
@@ -28,7 +28,7 @@
 
           figure
             img.mb-3(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen').mx-auto.w-75
-            figcaption Fuente: https://www.portaldeinocuidad.com/web/que-es-el-haccp/
+            figcaption Fuente: tomado de https://www.portaldeinocuidad.com/web/que-es-el-haccp/
 
     Separador
 
@@ -73,7 +73,7 @@
           .col-md-7
             h4 
             p El Codex Alimentarius describe al HACCP como un sistema que no solo identifica riesgos específicos, sino que también implementa medidas correctivas para asegurar la inocuidad alimentaria. A diferencia de otros métodos, el HACCP se enfoca en la prevención y controles preventivos en vez de depender exclusivamente de la inspección del producto final. 
-            p Esto permite anticiparse a los peligros microbiológicos, físicos o químicos antes de que afecten la integridad del producto. Desde su implementación en la industria aeroespacial, el uso del HACCP se ha expandido a otras áreas, como la preparación de comidas para aerolíneas, cadenas de comida rápida, hoteles, y servicios de catering, entre otros. Suéxito en estos sectores se debe a su capacidad para asegurar niveles elevados de seguridad alimentaria, reduciendo riesgos y mejorando la confianza del consumidor en los productos.
+            p Esto permite anticiparse a los peligros microbiológicos, físicos o químicos antes de que afecten la integridad del producto. Desde su implementación en la industria aeroespacial, el uso del HACCP se ha expandido a otras áreas, como la preparación de comidas para aerolíneas, cadenas de comida rápida, hoteles, y servicios de catering, entre otros. Su éxito en estos sectores se debe a su capacidad para asegurar niveles elevados de seguridad alimentaria, reduciendo riesgos y mejorando la confianza del consumidor en los productos.
 
           .col-md-5.mb-3.mb-md-0
             figure
@@ -108,12 +108,12 @@
               h5 Figura 2. 
               span Ciclo de principios aplicados del HACCP
           
-          .row.justify-content-center.align-items-center.ordenar_figura
-            .col-md-6.mb-3
+          .row.justify-content-center.align-items-center
+            .col-lg-6.mb-3
               figure
                 img.mb-3(src='@/assets/curso/images/tema2/img_13.png', alt='Texto que describa la imagen').mx-auto
-                figcaption Fuente: https://www.portaldeinocuidad.com/web/que-es-el-haccp/
-            .col-md-6.mb-3
+                figcaption Fuente: tomado de https://www.portaldeinocuidad.com/web/que-es-el-haccp/
+            .col-lg-6.mb-3
               .tarjeta.color_blanco.p-3
                 p El sistema HACCP (<em>Hazard Analysis and Critical Control Points</em> ) es un enfoque sistemático para garantizar la seguridad alimentaria mediante la identificación, evaluación y control de riesgos significativos en el proceso productivo de alimentos. A continuación, se detallan los siete principios fundamentales del HACCP:
 
@@ -162,6 +162,10 @@
                 td.text-bold 6. Establecimiento de un sistema de verificación
                 td Realizar evaluaciones y ensayos para confirmar que el sistema HACCP funciona correctamente.
                 td Asegurar que el sistema es efectivo en todo momento.
+              tr 
+                td.text-bold 7. Documentación y registro  
+                td Mantener registro de cada etapa del proceso de control, monitoreo, acciones correctivas y verificación.
+                td Asegurar la trazabilidad, facilitar auditorías y demostrar el control efectivo del sistema de segurirdad alimentaria. 
               
     Separador
 
@@ -180,33 +184,33 @@
             p.mb-2 El primer paso en el sistema HACCP es identificar los peligros potenciales que pueden afectar la inocuidad de los alimentos. Estos peligros pueden ser biológicos, químicos o físicos y pueden estar presentes en cualquier etapa de la producción, desde la cosecha hasta la distribución.
             p.mb-0 <br>A continuación, se presentan algunos ejemplos de peligros en la producción alimentaria.
     
-    .row.mb-3.ordenar_img
-      .col-lg-4.mb-3
+    .row.mb-3
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.p-4.h-100.fondo_3
           img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_15.png")
           h5 Biológicos
           p Bacterias (Salmonella, E. coli, Listeria), virus (hepatitis A, norovirus), hongos (Aspergillus, Penicillium) y parásitos. Estos pueden contaminar los alimentos durante su producción, procesamiento, manipulación, almacenamiento o distribución.
-      .col-lg-4.mb-3
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_16.png")
           h5 Químicos
           p Residuos de pesticidas, metales pesados, toxinas naturales (como las micotoxinas producidas por los hongos), sustancias químicas agregadas como aditivos o colorantes, y residuos de detergentes o desinfectantes.
-      .col-lg-4.mb-3
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.fondo_3.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_17.png")
           h5 Físicos
           p Objetos extraños como pedazos de metal, vidrio, plástico, madera, insectos, pelo, tierra o huesos, que pueden contaminar los alimentos durante su producción, procesamiento, manipulación, almacenamiento o distribución.
-      .col-lg-4.mb-3
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_18.png")
           h5 Contaminantes naturales
           p Micotoxinas, toxinas de algunos moluscos que afecta los productos pesqueros, bifenilos y alcaloides de algunos alimentos que ocasionan cáncer de vías digestivas, intoxicaciones y alergias.
-      .col-lg-4.mb-3
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.fondo_3.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_19.png")
           h5 Agroquímicos
           p Comprende sustancias de uso veterinario, antibióticos, pesticidas, funguicidas, insecticidas, fertilizantes que afectan las carnes, frutas y hortalizas, los cereales, las leches y ocasionan por exposición prolongada tumores, deformaciones congénitas, resistencia a los antibióticos, trastornos fisiológicos.
-      .col-lg-4.mb-3
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_20.png")
           h5 Aditivos
@@ -237,46 +241,46 @@
       SlyderA(tipo="b")
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-lg-0
               h3.mb-3 Producción
 
               p Control de la calidad de las materias primas, incluyendo su origen, almacenamiento y transporte; implementación de prácticas agrícolas adecuadas, como el uso de pesticidas autorizados y en las cantidades correctas; y el control de plagas y animales.
 
-            .col-md-6
+            .col-md-8.col-lg-6
               figure
               img(src='@/assets/curso/images/tema2/img_22.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-2
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-lg-0
       
               h3.mb-3 Procesamiento
 
               p Control de la temperatura y tiempo de cocción, refrigeración y congelación; control del pH y la humedad; y la pasteurización o esterilización de los productos.
 
-            .col-md-6
+            .col-md-8.col-lg-6
               figure
                 img(src='@/assets/curso/images/tema2/img_23.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-lg-0
               h3.mb-3 Manipulación
 
               p Lavado correcto de las manos y superficies; uso de utensilios limpios y separados para alimentos crudos y cocidos; almacenamiento adecuado de los alimentos, incluyendo la temperatura y la humedad; y la prevención de la contaminación cruzada.
 
-            .col-md-6
+            .col-md-8.col-lg-6
               figure
                 img(src='@/assets/curso/images/tema2/img_24.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-lg-0
               h3.mb-3 Distribución y venta
 
               p Control de la cadena de frío durante el transporte y almacenamiento; y la correcta manipulación y exhibición de los alimentos en los puntos de venta.
 
-            .col-md-6
+            .col-md-8.col-lg-6
               figure
                 img(src='@/assets/curso/images/tema2/img_25.png', alt='Texto que describa la imagen')
               

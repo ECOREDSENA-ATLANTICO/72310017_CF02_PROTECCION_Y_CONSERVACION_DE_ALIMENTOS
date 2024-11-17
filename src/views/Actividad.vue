@@ -95,14 +95,14 @@ export default {
           imagen: require('@/assets/componentes/img_3.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Control de riesgos', esCorrecta: true },
-            { id: 'b', texto: 'Sistema HACCP', esCorrecta: false },
+            { id: 'a', texto: 'Control de riesgos.', esCorrecta: true },
+            { id: 'b', texto: 'Sistema HACCP.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Buenas Prácticas de Manufactura (BPM)',
+              texto: 'Buenas Prácticas de Manufactura (BPM).',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Análisis de peligros', esCorrecta: false },
+            { id: 'd', texto: 'Análisis de peligros.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -114,14 +114,14 @@ export default {
           imagen: require('@/assets/componentes/img_4.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Sistema HACCP', esCorrecta: true },
-            { id: 'b', texto: 'Control de riesgos', esCorrecta: false },
+            { id: 'a', texto: 'Sistema HACCP.', esCorrecta: true },
+            { id: 'b', texto: 'Control de riesgos.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Buenas Prácticas de Manufactura (BPM)',
+              texto: 'Buenas Prácticas de Manufactura (BPM).',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Análisis de peligros', esCorrecta: false },
+            { id: 'd', texto: 'Análisis de peligros.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -166,7 +166,7 @@ export default {
           imagen: require('@/assets/componentes/img_1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Un alimento contaminado', esCorrecta: true },
+            { id: 'a', texto: 'Un alimento contaminado.', esCorrecta: true },
             {
               id: 'b',
               texto: 'Un alimento que no cumple con las normas de higiene.',
@@ -231,20 +231,20 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Personas con un sistema inmunológico debilitado',
+              texto: 'Personas con un sistema inmunológico debilitado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Personas que consumen alimentos de origen animal',
+              texto: 'Personas que consumen alimentos de origen animal.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Personas que viajan con frecuencia',
+              texto: 'Personas que viajan con frecuencia.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas las anteriores', esCorrecta: true },
+            { id: 'd', texto: 'Todas las anteriores.', esCorrecta: true },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',

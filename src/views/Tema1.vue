@@ -23,53 +23,53 @@
         h3.bgr_3.position-relative Definición y Conceptos Básicos 
           img.pst(src='@/assets/curso/images/titulos/img_1.png', alt='') 
 
-    p.mb-3 Las Enfermedades Transmitidas por Alimentos (ETA) son infecciones o intoxicaciones resultantes del consumo de alimentos contaminados, generalmente por microorganismos patógenos como bacterias, virus, y parásitos, o sustancias químicas nocivas.
+    p.mb-3 Las Enfermedades Transmitidas por Alimentos (ETA) son un problema de salud pública que surge cuando se consumen alimentos contaminados. Estas enfermedades pueden provocar infecciones o intoxicaciones en el organismo, generalmente debido a la presencia de microorganismos como bacterias, virus y parásitos, o por sustancias químicas peligrosas. Su conocimiento y prevención resultan esenciales para garantizar la seguridad alimentaria y proteger la salud de las personas.
 
     .tarjeta.fondo_1_2.p-4.slyder_1.bg-01.mb-4
       SlyderA(tipo="b")
         .tarjeta.bg-01.p-4
-          .row.tarjeta_ordenadas.justify-content-center.align-items-center.my-lg-4.p-2
-            .col-md-6.mb-4
+          .row.justify-content-center.align-items-center.my-lg-4.p-2
+            .col-lg-6.mb-4
               h3.mb-3 ¿Qué son las ETAs?
 
-              p La enfermedad transmitida por alimentos (ETA) <b>es el síndrome originado por la ingestión de alimentos</b>, incluida el agua, que contienen agentes etiológicos en cantidades tales que afectan la salud del consumidor <b>a nivel individual o en grupos de población</b>; las alergias por hipersensibilidad individual no se consideran ETA.
+              p.mb-3 La enfermedad transmitida por alimentos (ETA) <b>es el síndrome originado por la ingestión de alimentos</b>, incluida el agua, que contienen agentes etiológicos en cantidades tales que afectan la salud del consumidor <b>a nivel individual o en grupos de población</b>; las alergias por hipersensibilidad individual no se consideran ETA.
 
               .col-5
                 figure
                 img.w-50(src='@/assets/curso/images/tema1/img_1.png', alt='Texto que describa la imagen')
 
-            .col-md-6.img_tarjeta
+            .col-lg-6
               figure
               img(src='@/assets/curso/images/tema1/img_2.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
-          .row.tarjeta_ordenadas.justify-content-center.align-items-center.my-lg-4.p-2
-            .col-md-6.mb-4
+          .row.justify-content-center.align-items-center.my-lg-4.p-2
+            .col-lg-6.mb-4
       
               h3.mb-3 ¿A quiénes afecta?
 
-              p Las ETA constituyen <b>uno de los problemas sanitarios más comunes y de mayor impacto sobre la salud de las personas en el mundo</b>. Afectan principalmente a la población pobre, a niños, mujeres embarazadas y ancianos. La aparición de brotes de ETA <b>podría perjudicar tanto al comercio como al turismo, provocando pérdidas de ingresos, desempleo y demandas</b>. Además, el deterioro de los alimentos ocasiona pérdidas, es costoso y puede influir negativamente en el comercio y en la confianza de los consumidores.
+              p.mb-3 Las ETA constituyen <b>uno de los problemas sanitarios más comunes y de mayor impacto sobre la salud de las personas en el mundo</b>. Afectan principalmente a la población pobre, a niños, mujeres embarazadas y ancianos. La aparición de brotes de ETA <b>podría perjudicar tanto al comercio como al turismo, provocando pérdidas de ingresos, desempleo y demandas</b>. Además, el deterioro de los alimentos ocasiona pérdidas, es costoso y puede influir negativamente en el comercio y en la confianza de los consumidores.
 
               .col-5
                 figure
                 img.w-50(src='@/assets/curso/images/tema1/img_3.png', alt='Texto que describa la imagen')
 
-            .col-md-6.img_tarjeta
+            .col-lg-6
               figure
                 img(src='@/assets/curso/images/tema1/img_4.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
-          .row.tarjeta_ordenadas.justify-content-center.align-items-center.my-lg-4.p-2
-            .col-md-6.mb-4
+          .row.justify-content-center.align-items-center.my-lg-4.p-2
+            .col-lg-6.mb-4
               h3.mb-3 ¿Cuál es su impacto? 
 
-              p El proceso de globalización ha provocado un <b>aumento significativo en el comercio internacional de productos alimenticios</b>, lo cual ha proporcionado importantes beneficios sociales y económicos, pero también facilita la <b>propagación de enfermedades en el mundo</b>. En los dos últimos decenios, los hábitos de consumo de alimentos también han sufrido cambios importantes en muchos países; como consecuencia, <b>se han perfeccionado nuevas técnicas de producción, preparación y distribución de alimentos</b>.
+              p.mb-3 El proceso de globalización ha provocado un <b>aumento significativo en el comercio internacional de productos alimenticios</b>, lo cual ha proporcionado importantes beneficios sociales y económicos, pero también facilita la <b>propagación de enfermedades en el mundo</b>. En los dos últimos decenios, los hábitos de consumo de alimentos también han sufrido cambios importantes en muchos países; como consecuencia, <b>se han perfeccionado nuevas técnicas de producción, preparación y distribución de alimentos</b>.
 
               .col-5
                 figure
                 img.w-50(src='@/assets/curso/images/tema1/img_5.png', alt='Texto que describa la imagen')
 
-            .col-md-6.img_tarjeta
+            .col-lg-6
               figure
                 img(src='@/assets/curso/images/tema1/img_6.png', alt='Texto que describa la imagen')
 
@@ -86,74 +86,73 @@
     p.mb-4 Los microrganismos en los alimentos pueden causar alteraciones de dos tipos: <em>Alteración del poder nutritivo y de las propiedades organolépticas.</em> Para el caso de las enfermedades que pueden ocasionar en el hombre, estas pueden ser infecciones, intoxicaciones o alergias. Por lo tanto, las enfermedades transmitidas por alimentos son un conjunto de enfermedades que resultan de la ingestión de alimentos contaminados con algunos de los siguientes elementos:
     
     .bg_img_0
-      .row.justify-content-center.mb-5.tarjeta_responsive
-        .col-lg-3.mb-2
+      .row.justify-content-center.mb-5
+        .col-md-6.col-xl-3.mb-2
           .tarjeta.fondo-dorado.p-4.h-100.text-center
             figure
               img(src="@/assets/curso/images/tema1/img_7.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Microorganismos.  
             //- p La temperatura de refrigeración no debe superar los 4°C para asegurar una buena conservación de los productos.
         
-        .col-lg-3.mb-2
+        .col-md-6.col-xl-3.mb-2
           .tarjeta.fondo-dorado.p-4.h-100.text-center
             figure
               img(src="@/assets/curso/images/tema1/img_8.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Toxinas de microorganismos.
             //- p La temperatura de congelación no debe superar los -18°C para una conservación a largo plazo.
         
-        .col-lg-3.mb-2
+        .col-md-6.col-xl-3.mb-2
           .tarjeta.fondo-dorado.p-4.h-100.text-center
             figure
               img(src="@/assets/curso/images/tema1/img_9.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Agentes químicos.
             p plaguicidas, metales, aditivos.
 
-        .col-lg-3.mb-2
+        .col-md-6.col-xl-3.mb-2
           .tarjeta.fondo-dorado.p-4.h-100.text-center
             figure
               img(src="@/assets/curso/images/tema1/img_10.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Alimentos que naturalmente pueden contener sustancias tóxicas.
             p Moluscos, vegetales, hongos.
   
-    .row.justify-content-center.mb-2.tarjeta_enumeradas
+    .row.justify-content-center.mb-2
       h4.mb-5.text-center  En general las fuentes de contaminación son diversas. Entre las principales se encuentran:
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-numerada.bg-06.p-5.h-100.img_1
           .tarjeta-numerada__numero
             .h2 1
-          p 
+          p
             b Salud de los animales.
 
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-numerada.bg-07.p-5.h-100.img_2
           .tarjeta-numerada__numero
             .h2 2
           p 
             b Ambiente.
 
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-numerada.bg-06.p-5.h-100.img_3
           .tarjeta-numerada__numero
             .h2 3
-            .col-md-8
           p.parrafo
             b Transporte. 
             
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-numerada.bg-07.p-5.h-100.img_4
           .tarjeta-numerada__numero
             .h2 4
           p 
             b Utensilios. 
 
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-numerada.bg-06.p-5.h-100.img_5
           .tarjeta-numerada__numero
             .h2 5
           p 
             b Procesado. 
 
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-numerada.bg-07.p-5.h-100.img_6
           .tarjeta-numerada__numero
             .h2 6
@@ -196,7 +195,7 @@
 
     .bg_img_4
       .row.justify-content-center.align-items-center.mb-5
-        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+        .col-md-6.col-lg-4.mb-4.mb-lg-2
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -205,7 +204,7 @@
               h4.mb-3.text-center Bacterias
               p.mb-0 La mayoría de las ETAs son causadas por bacterias. Ejemplos: Salmonella, <em>Escherichia coli, Listeria monocytogenes, Campylobacter jejuni, Clostridium botulinum, Bacillus cereus, Staphylococcus aureus.</em>
 
-        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+        .col-md-6.col-lg-4.mb-4.mb-lg-2
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -214,7 +213,7 @@
               h4.mb-3.text-center Virus
               p.mb-0 Algunos ejemplos de virus que causan ETAs: virus de la hepatitis A, Norovirus, Rotavirus.
 
-        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+        .col-md-6.col-lg-4.mb-4.mb-lg-2
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -223,7 +222,7 @@
               h4.mb-3.text-center Hongos
               p.mb-0 Los hongos pueden producir micotoxinas que causan intoxicaciones. Ejemplos: <em>Aspergillus, Penicillium, Fusarium.</em>
 
-        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+        .col-md-6.col-lg-4.mb-4.mb-lg-2
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -232,7 +231,7 @@
               h4.mb-3.text-center Parásitos
               p.mb-0 Algunos parásitos que causan ETAs: <em>Cryptosporidium, Giardia lamblia, Toxoplasma gondii.</em>
 
-        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+        .col-md-6.col-lg-4.mb-4.mb-lg-2
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -242,7 +241,7 @@
               p.mb-0 Las toxinas pueden estar presentes en los alimentos de manera natural o ser producidas por microorganismos. Ejemplos: toxinas de las algas, micotoxinas producidas por hongos, toxinas de algunos mariscos.
 
 
-        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+        .col-md-6.col-lg-4.mb-4.mb-lg-2
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -251,6 +250,8 @@
               h4.mb-3.text-center Sustancias químicas
               p.mb-0 Pesticidas, metales pesados, aditivos alimentarios, contaminantes ambientales.
     
+    p.mb-5 Las enfermedades transmitidas por alimentos representan un riesgo significativo para la salud pública, especialmente aquellas causadas por bacterias y virus que se encuentran en alimentos mal manipulados o contaminados. Según Cliver (1993), existen diversas bacterias responsables de infecciones e intoxicaciones alimentarias, cada una con síntomas específicos, periodos de latencia y alimentos típicos que actúan como vehículos de transmisión. La prevención de estas enfermedades se centra en medidas como la cocción adecuada, el control de higiene y la correcta refrigeración, las cuales son esenciales para evitar brotes y garantizar la seguridad alimentaria.
+
     .row.align-items-center.justify-content-center.mb-0
       .col-md-12.mb-3
         .titulo-sexto.color-acento-contenido.mb-5

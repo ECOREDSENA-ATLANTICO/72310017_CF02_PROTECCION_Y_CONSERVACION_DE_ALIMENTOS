@@ -21,10 +21,10 @@
         h3.bgr_3.position-relative Codex Alimentarius
           img.pst(src='@/assets/curso/images/titulos/img_10.png', alt='') 
 
-    .row.justify-content-center.align-items-center.mb-2.tarjetas_ordenadas
+    .row.justify-content-center.align-items-center.mb-2
       .col-lg-8.mb-3
         p El <em>Codex Alimentarius</em>, o código alimentario, se ha convertido en un punto de referencia mundial para los consumidores, los productores y elaboradores de alimentos, los organismos nacionales de control de los alimentos y el comercio alimentario internacional. Su repercusión sobre el modo de pensar de quienes intervienen en la producción y elaboración de alimentos y quienes los consumen ha sido enorme. Su influencia se extiende a todos los continentes y su contribución a la protección de la salud de los consumidores y a la garantía de unas prácticas equitativas en el comercio alimentario es incalculable.
-      .col-lg-4.mb-3
+      .col-md-8.col-lg-4.mb-3
         figure
           img(src='@/assets/curso/images/tema3/img_2.png', alt='Texto que describa la imagen')
 
@@ -33,11 +33,11 @@
         h3.bgr_3.position-relative Recomendaciones de la comisión del <em>Codex Alimentarius</em>
           img.pst(src='@/assets/curso/images/titulos/img_11.png', alt='') 
 
-    .row.justify-content-center.align-items-center.mb-2.fondo_2_4
-      .col-md-4.mb-3
+    .row.justify-content-center.align-items-center.mb-2
+      .col-md-8.col-xl-4.mb-3
         figure
           img(src='@/assets/curso/images/tema3/img_3.png', alt='Texto que describa la imagen')    
-      .col-md-8.mb-3
+      .col-xl-8.mb-3
         p.mb-3 La comisión del <em>Codex Alimentarius</em> es el más alto organismo internacional en materia de normas de alimentación. La importancia del Codex Alimentarius para la protección de la salud de los consumidores fue subrayada por la Resolución 39/248 de 1985 de las Naciones Unidas; en dicha Resolución se adoptaron directrices para elaborar y reforzar las políticas de protección del consumidor.
         p.mb-3 En las directrices se recomienda que, al formular políticas y planes nacionales relativos a los alimentos, los gobiernos tengan en cuenta la necesidad de seguridad alimentaria de todos los consumidores y apoyen, en la medida de lo posible, adopten las normas del Codex Alimentarius o; en su defecto, otras normas alimentarias internacionales de aceptación general.
 
@@ -63,19 +63,19 @@
                       span Ir al sitio
                       i.fas.fa-link
 
-    .row.align-items-center.justify-content-center.mb-3.ps-2.fondo_2_4(data-aos="zoom-in-down")
-      .col-md-8.mb-3
+    .row.align-items-center.justify-content-center.mb-3.ps-2(data-aos="zoom-in-down")
+      .col-xl-8.mb-3
         p.mb-3 Los Principios generales del Codex de higiene de los alimentos sientan sólidas bases para garantizar la higiene de los alimentos, siguiendo la cadena alimentaria desde la producción primaria hasta el consumidor final y resaltando los controles claves de higiene necesarios en cada etapa. También recomiendan aplicar, en lo posible, una metodología basada en el HACCP, como la que se describe en el Sistema de Análisis de Peligros y de Puntos Críticos de Control (HACCP) y Directrices para su Aplicación [Anexo al Código Internacional Recomendado de Prácticas - Principios Generales de Higiene de los Alimentos, CAC/RCP-1 (1969), Rev. 3 (1997)].
         p.mb-3 Se reconoce internacionalmente que tales controles son esenciales para asegurar la inocuidad y aptitud de los alimentos para el consumo y los principios generales se recomiendan tanto a los gobiernos como a la industria y los consumidores.
         p.mb-3 La finalidad del <em>Codex Alimentarius</em> es garantizar alimentos inocuos y de calidad a todas las personas y en cualquier lugar. El comercio internacional de alimentos existe desde hace miles de años, pero hasta no hace mucho, los alimentos se producían, vendían y consumían en el ámbito local. En el último siglo, la cantidad de alimentos comercializados internacionalmente creció y, hoy, una cantidad y variedad de alimentos nunca imaginada circula por el planeta.
 
-      .col-md-4.mb-3
+      .col-md-8.col-xl-4.mb-3
         figure
           img(src='@/assets/curso/images/tema3/img_5.png', alt='Texto que describa la imagen').mx-auto 
       
-      .col-md-12.mb-3
-        .cajon.color-acento-contenido.p-4.mb-2
-          p.mb-0 El <em>Codex Alimentarius</em> contribuye, a través de sus normas, directrices y códigos de prácticas alimentarias internacionales, a la inocuidad, la calidad y la equidad en el comercio internacional de alimentos. Los consumidores pueden confiar en que los productos alimentarios que compran son inocuos y de calidad y los importadores en que los alimentos que han encargado se ajustan a sus especificaciones. 
+    
+    .cajon.color-acento-contenido.p-4.mb-5
+      p.mb-0 El <em>Codex Alimentarius</em> contribuye, a través de sus normas, directrices y códigos de prácticas alimentarias internacionales, a la inocuidad, la calidad y la equidad en el comercio internacional de alimentos. Los consumidores pueden confiar en que los productos alimentarios que compran son inocuos y de calidad y los importadores en que los alimentos que han encargado se ajustan a sus especificaciones. 
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-down")
       .col-md-12.mb-4
@@ -87,7 +87,7 @@
           .col-md-12
             figure
               img.mb-3(src='@/assets/curso/images/tema3/img_6.png', alt='Texto que describa la imagen').mx-auto
-              figcaption Fuente: https://www.fao.org/fileadmin/user_upload/codexalimentarius/photo-archive/Infographics/8_tramites.jpg 
+              figcaption Fuente: tomado de https://www.fao.org/fileadmin/user_upload/codexalimentarius/photo-archive/Infographics/8_tramites.jpg 
 
     .row.align-items-center.justify-content-center.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-4(data-aos="fade-right")
@@ -98,50 +98,50 @@
       .col-md-12
         p En Colombia se han logrado grandes avances en la prevención y control de enfermedades por el manejo del alimento, gracias a la integración y vigilancia que desde el INVIMA reliza el Ministerio de Salud.
 
-    .tarjeta.tarjeta.fondo_1_2.p-4.slyder_1.bg-01.mb-5.slyder_ordenado(data-aos="zoom-in-down")
+    .tarjeta.tarjeta.fondo_1_2.p-4.slyder_1.bg-01.mb-5(data-aos="zoom-in-down")
       SlyderA(tipo="b")
         .tarjeta.bg-01.p-4
-          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3.tarjeta_figura
-            .col-md-6.mb-4.mb-md-0
+          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3
+            .col-xl-6.mb-4.mb-xl-0
               h3.mb-3 Medidas sanitaras en el país
 
               p En Colombia el Ministerio de Salud es la autoridad de salud a nivel nacional en materia sanitaria y de inocuidad de los alimentos, esta regulación se hace a través del INVIMA Instituto Nacional de Vigilancia de Medicamentos y Alimentos, quien es responsable de conducir el control de inocuidad de los alimentos, en el marco de sus competencias, la vigilancia sanitaria de los alimentos elaborados industrialmente, de los elaborados y comercializados en puntos de venta publica, en si la venta, expendio, comercialización y transporte de los alimentos.
 
-            .col-md-6
+            .col-md-8.col-xl-6
               figure
               img(src='@/assets/curso/images/tema3/img_7.png', alt='Texto que describa la imagen').mx-auto
 
         .tarjeta.bg-01.p-4
-          .row.justify-content-center.align-items-center.my-lg-4.p-3.tarjeta_figura
-            .col-md-6.mb-4.mb-md-0
+          .row.justify-content-center.align-items-center.my-lg-4.p-3
+            .col-xl-6.mb-4.mb-xl-0
       
               h3.mb-3 Vigilancia y control
 
               p De igual manera, es el ente encargado de vigilar las fábricas y a las personas o empresas que traen productos de otros países, como alimentos, entre otros productos, para que sean de buena calidad, estén en las condiciones necesarias para cumplir su función y no perjudiquen nuestra salud. Otro control que se debe realizar, es a todos los alimentos que se comercializan en la vía pública; ya que se consideran al mismo tiempo un problema, un desafío y una oportunidad para el desarrollo. El problema es asegurar la calidad e inocuidad de los alimentos que se venden.
 
-            .col-md-6
+            .col-md-8.col-xl-6
               figure
                 img(src='@/assets/curso/images/tema3/img_8.png', alt='Texto que describa la imagen').mx-auto
 
         .tarjeta.bg-01.p-4
-          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3.tarjeta_figura
-            .col-md-6.mb-4.mb-md-0
+          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3
+            .col-xl-6.mb-4.mb-xl-0
               h3.mb-3 Evolución del marco jurídico
 
               p La oportunidad radica en el fortalecimiento de los hábitos alimentarios tradicionales y locales, así como en el desarrollo de pequeñas industrias y de estructuras cooperativas de comercialización, y fuente de empleo. El desafío es proporcionar a las autoridades gubernamentales y municipales los medios necesarios para garantizar la inocuidad y la calidad de dichos alimentos y estimular al mismo tiempo el desarrollo de este sector.
 
-            .col-md-6
+            .col-md-8.col-xl-6
               figure
                 img(src='@/assets/curso/images/tema3/img_9.png', alt='Texto que describa la imagen').mx-auto
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3.tarjeta_figura
-            .col-md-6.mb-4.mb-md-0
+            .col-xl-6.mb-4.mb-xl-0
               h3.mb-3 Distribución y venta
 
               p El marco legal para la higiene y seguridad alimentaria en Colombia se ha desarrollado a través de varias resoluciones y decretos, evolucionando para incorporar mejores prácticas y estándares internacionales, se presentan sus variaciones y cambios acordes a la normatividad global.
 
-            .col-md-6
+            .col-md-8.col-xl-6
               figure
                 img(src='@/assets/curso/images/tema3/img_9_1.png', alt='Texto que describa la imagen').mx-auto
 
@@ -151,73 +151,73 @@
       .row.justify-content-center(data-aos="zoom-in-down")
         .col-lg-10.order_linea_tiempo
           PasosA.color-acento-contenido.mb-3()
-            .row
-              .col-lg
+            .row.justify-content-center
+              .col-lg-6.mb-4.mb-lg-0
                 h3 Ley 9 de 1979 (Código Sanitario Nacional)
                 ul.lista-ul
-                  li 
+                  li.bgr
                     i.lista-ul__vineta
                     | Descripción: establece las normas generales de salud pública en Colombia, incluyendo regulaciones para la producción, procesamiento, y comercialización de alimentos.
-                  li 
+                  li.bgr 
                     i.lista-ul__vineta
                     | Impacto: sentó las bases para la regulación moderna de alimentos, destacando la importancia de la inocuidad y calidad.
 
-              .col-auto
+              .col-md-8.col-lg-6
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/images/tema3/img_10.png', alt='').img125
 
-            .row
-              .col-auto
+            .row.justify-content-center
+              .col-md-8.col-lg-6.mb-3
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/images/tema3/img_11.png', alt='').img1125
-              .col-lg
+              .col-lg-6.mb-4.mb-lg-0
                 h3 Decreto 3075 de 1997
                 ul.lista-ul
-                  li 
+                  li.bgr 
                     i.lista-ul__vineta
                     | Función: reglamenta las condiciones sanitarias que deben cumplir los establecimientos dedicados a alimentos, enfatizando la aplicación de BPM.
-                  li 
+                  li.bgr 
                     i.lista-ul__vineta
                     | Características: introduce directrices específicas para el manejo higiénico de alimentos y fortalece la infraestructura de control sanitario.
 
-            .row
-              .col-lg
+            .row.justify-content-center
+              .col-lg-6.mb-4.mb-lg-0
                 h3 Resolución 2674 de 2013
                 ul.lista-ul
-                  li 
+                  li.bgr 
                     i.lista-ul__vineta
                     | Objetivo: actualiza y especifica los requisitos que deben seguir los establecimientos de alimentos, siguiendo principios de BPM.
-                  li 
+                  li.bgr 
                     i.lista-ul__vineta
                     | Contenido: detalla condiciones de higiene, almacenamiento, y manipulación, además de establecer criterios para la capacitación de personal y normativas de etiquetado.
-                  li 
+                  li.bgr 
                     i.lista-ul__vineta
                     | Vigilancia: bajo la supervisión del Instituto Nacional de Vigilancia de Medicamentos y Alimentos (Invima).
 
-              .col-auto
+              .col-md-8.col-lg-6
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/images/tema3/img_12.png', alt='').img125
 
-            .row
-              .col-auto
+            .row.justify-content-center
+              .col-md-8.col-lg-6.mb-3
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/images/tema3/img_13.png', alt='').img125
-              .col-lg
+              .col-lg-6.mb-4.mb-lg-0
                 h3 Resolución 719 de 2015
                 ul.lista-ul
-                  li 
+                  li.bgr 
                     i.lista-ul__vineta
                     | Propósito: modifica y complementa aspectos de la Resolución 2674, ajustando algunas normativas para adaptarse a cambios tecnológicos y científicos recientes en la producción de alimentos.
 
-            .row
-              .col-lg
+            .row.justify-content-center
+              .col-lg-6.mb-4.mb-lg-0
                 h3 Resolución 810 de 2021
                 ul.lista-ul
-                  li 
+                  li.bgr 
                     i.lista-ul__vineta
                     | Innovación: introduce criterios más estrictos para el etiquetado nutricional y declaraciones de propiedades saludables, enfatizando la transparencia y protección al consumidor.
                     
-              .col-auto
+              .col-md-8.col-lg-6
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/images/tema3/img_14.png', alt='').img125
 

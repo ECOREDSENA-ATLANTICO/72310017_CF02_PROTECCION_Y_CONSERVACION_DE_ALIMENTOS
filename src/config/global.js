@@ -132,15 +132,14 @@ export default {
       referencia:
         'Administración Nacional de Medicamentos, Alimentos y Tecnología Médica – ANMAT. (s.f.). Enfermedades transmitidas por los alimentos.',
       tipo: 'Capítulo de libro',
-      link: 'https://www.anmat.gob.ar/Alimentos/ETA.pdf',
+      descarga: '/downloads/ETA.pdf',
     },
     {
       tema: 'Control de riesgos en la producción de alimentos',
       referencia:
         'United States Department of Agriculture – USDA. (2013). Inocuidad Alimentaria y Seguridad Alimentaria: Lo que Deben Saber los Consumidores.',
       tipo: 'Libro',
-      link:
-        'https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-LPS75622/pdf/GOVPUB-A110-PURL-LPS75622.pdf',
+      descarga: '/downloads/GOVPUB-A110-PURL-LPS75622.pdf',
     },
   ],
   glosario: [
@@ -190,7 +189,7 @@ export default {
     {
       referencia:
         'Organización Mundial de la Salud. (2017). Enfermedades de transmisión alimentaria.',
-      link: 'http://www.who.int/topics/foodborne_diseases/es/',
+      link: 'https://www.who.int/es/health-topics/foodborne-diseases#tab=tab_3',
     },
     {
       referencia:
