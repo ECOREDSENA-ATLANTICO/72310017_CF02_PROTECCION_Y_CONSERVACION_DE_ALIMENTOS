@@ -112,7 +112,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/72310017_CF002_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -177,12 +177,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Cliver, D. (1993). Enfermedades transmitidas por alimentos causadas por virus.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ministerio de Salud. (2017). Enfermedades transmitidas por alimentos.',
+        'Cliver, D. (1993). Enfermedades transmitidas por alimentos causadas por virus. Ministerio de salud. (2017). Enfermedades transmitidas por alimentos. ',
       link:
         'https://www.minsalud.gov.co/salud/publica/PET/Paginas/enfermedades-transmitidas-por-alimentos.aspx',
     },
@@ -247,7 +242,7 @@ export default {
       autores: [
         {
           nombre: 'Eulises Orduz Amezquita',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador <em>web</em>',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },

@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis se detalla las enfermedades transmitidas por alimentos, que pueden ser infecciones e intoxicaciones, así mismo se enumeran las causas y como se pueden prevenir.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

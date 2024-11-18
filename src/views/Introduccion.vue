@@ -28,7 +28,7 @@
 
         .col-md-8.col-xl-4.mb-3
           figure
-            img.img-t.m-auto(src='@/assets/curso/images/introduccion/img_2.png', alt='Imagen Decorativa')          
+            img.img-t.m-auto(src='@/assets/curso/temas/introduccion/img_2.png', alt='Imagen Decorativa')          
   
 </template>
 

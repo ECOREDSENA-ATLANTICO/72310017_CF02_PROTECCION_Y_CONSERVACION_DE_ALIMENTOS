@@ -40,7 +40,6 @@
     top: 61%
     right: 11%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -52,30 +51,30 @@
   height: 114px
 .banner-principal .tarjeta
   background-position: inherit !important
-    
+
 .titulo-segundo:after
   border-left-color: #EB6F2D !important
 
 .fondo_1_2
-  background-image: url('../assets/curso/images/tema1/img_24.png') !important
+  background-image: url('../assets/curso/temas/tema1/img_24.png') !important
   // background-repeat: no-repeat
 
 .fondo_1
-  // background-image: url('../assets/curso/images/tema1/img_29.png') !important
+  // background-image: url('../assets/curso/temas/tema1/img_29.png') !important
   // background-repeat: no-repeat
 
 .fondo_1_1
-  // background-image: url('../assets/curso/images/tema1/img_30.png') !important
+  // background-image: url('../assets/curso/temas/tema1/img_30.png') !important
   // background-repeat: no-repeat
 
 .fondo_2
-  // background-image: url('../assets/curso/images/tema1/img_27.png') !important
+  // background-image: url('../assets/curso/temas/tema1/img_27.png') !important
   background-repeat: no-repeat
   background-position: top right
   background-size: auto
 
 .fondo_3
-  // background-image: url('../assets/curso/images/tema1/img_11.png') !important
+  // background-image: url('../assets/curso/temas/tema1/img_11.png') !important
   background-repeat: no-repeat
   background-position: top right
   background-size: auto
@@ -90,32 +89,32 @@
   background-color: #115B77
 
 .fondo_4
-  // background-image: url('../assets/curso/images/tema1/img_20.png') !important
+  // background-image: url('../assets/curso/temas/tema1/img_20.png') !important
   // background-repeat: no-repeat
   // background-position: right
   // backgroind-color: #EB6F2D !important
 
 .fondo_5
-  background-image: url('../assets/curso/images/tema3/img_16.png') !important
+  background-image: url('../assets/curso/temas/tema3/img_16.png') !important
   background-repeat: no-repeat
   background-position: top right
   background-size: auto
 
 .fondo_6
-  // background-image: url('../assets/curso/images/tema2/img_31.png') !important
+  // background-image: url('../assets/curso/temas/tema2/img_31.png') !important
   background-repeat: no-repeat
   background-position: bottom right
 
 .fondo_2_2
-  // background-image: url('../assets/curso/images/tema1/img_20.png') !important
+  // background-image: url('../assets/curso/temas/tema1/img_20.png') !important
   // background-repeat: no-repeat
   // background-position: right
   // backgroind-color: #EB6F2D !important
 
-.slyder-a 
+.slyder-a
   background-color: #ffffff !important
   border-radius: 15px
-  
+
 .slyder_1
   .slyder-a__bullets__item--active
     background-color: #FF8636
@@ -132,38 +131,36 @@
     color: #ffffff
 
 .h-100
-  height: 100% !important 
+  height: 100% !important
 
-  
 ///////// Card hover --------------------------------------
 .crd_hover_txt
-  position: relative  
+  position: relative
   padding: 0 !important
   overflow: hidden !important
   border-radius: 10px
   h4
-    color: #fff  
-  &:hover    
-    .crd_hover_txt--body   
-      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+    color: #fff
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
       transform: translateY(0)
       background-color: #A5D6E8
       h4
-        color: #12263F  
+        color: #12263F
 
   .crd_hover_txt--body
     position: absolute
     padding: 1.5rem
-    bottom: 0    
+    bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 4.2rem ))
     background-color: #115B77
-  
-  @media (min-width:1200px) and (max-width:1400px)  
+
+  @media (min-width:1200px) and (max-width:1400px)
     .crd_hover_txt--body
       p
         font-size: 0.85em
-
 
 ///////// Linea tiempo --------------------------------------
 .color_azul
@@ -188,7 +185,6 @@
   .linea-tiempo-d__item__dots:after
     border-left: 5px dotted #C7C7C7 !important
 
-
 .cajon.bg-3
   background-color: #E9F5F9
 .cajon.bg-3::before
@@ -199,29 +195,26 @@
 .cajon.bg-4::before
   background-color: #FF8636
 
-
 .cajon.bg-5
   background-color: #D2EAF3
 .cajon.bg-5::before
   background-color: #1D98C6
 
-
-  
 //// Tarjetas -------------------------------------
 
 .crd
   &.brd--rad
-    border-radius: 20px 
+    border-radius: 20px
   &.crd--grayGrad
     padding: 2rem
     height: 100%
     background-color: #F6F6F6
-    border-radius: 15px    
+    border-radius: 15px
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
-    &:hover      
+    &:hover
       background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
       h4, p
-        color: white 
+        color: white
       .bottomCircle
         &::before
           background-color: #FED981
@@ -252,12 +245,12 @@
   padding-right: 12rem
   & > *
     position: relative
-  h5 
+  h5
     color: #177A9F
-  p 
+  p
     margin-bottom: 0
-  &::before  
-    position: absolute 
+  &::before
+    position: absolute
     content: ''
     top: 0
     right: 0
@@ -269,14 +262,14 @@
     padding-right: 2rem
 
 .crd--first, .crd--last
-  &::before 
+  &::before
     background-color: #D2EAF3 !important
 
 .crd--first
-  &::before 
+  &::before
     border-top-left-radius: 30px
 .crd--last
-  &::before 
+  &::before
     border-bottom-left-radius: 30px
 
 .avatar
@@ -289,11 +282,11 @@
 
 ///// utilidades --------------------------------------
 .img65
-  width: 65px  
+  width: 65px
 .img90
-  width: 90px  
+  width: 90px
 .img250
-  width: 476px  
+  width: 476px
 
 .encabezado-tabla
   background-color: #FFCEAF
@@ -302,7 +295,7 @@
 table, th, td
   border: 1px solid #E1E1E1
   border-collapse: collapse
-  
+
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/interno.png") !important
   background-repeat: no-repeat
@@ -316,7 +309,7 @@ table, th, td
 .banner-interno__titulo__icono
   background-color: #12263F !important
 
-.pasos-a.color-acento-contenido .pasos-a__circle  
+.pasos-a.color-acento-contenido .pasos-a__circle
   background-color: #A79162 !important
 .pasos-a__linea
   border-color: #A79162 !important
@@ -342,10 +335,9 @@ table, th, td
 .tarjeta-numerada.bg-06 .tarjeta-numerada__numero div
   color: #ffffff
 
-
 .tarjeta-numerada.bg-07
   border-color: #FFE7D7
-  background-color:#FFE7D7
+  background-color: #FFE7D7
 
 .tarjeta-numerada.bg-07 .tarjeta-numerada__numero
   background-color: #995120
@@ -360,41 +352,41 @@ table, th, td
   background-color: #D9C394
 
 .parrafo, .img_parrafo
-    display: inline-block
-    vertical-align: middle /* Alineación vertical */
+  display: inline-block
+  vertical-align: middle /* Alineación vertical */
 
 .img_1
-  background-image: url("../assets/curso/images/tema1/img_11.png") !important
+  background-image: url("../assets/curso/temas/tema1/img_11.png") !important
   background-repeat: no-repeat
   background-position: right 30px center /* Centra la imagen */
   background-size: auto /* Ajusta la imagen al tamaño del div */
 
 .img_2
-  background-image: url("../assets/curso/images/tema1/img_12.png") !important
+  background-image: url("../assets/curso/temas/tema1/img_12.png") !important
   background-repeat: no-repeat
   background-position: right 30px center /* Centra la imagen */
   background-size: auto /* Ajusta la imagen al tamaño del div */
-    
+
 .img_3
-  background-image: url("../assets/curso/images/tema1/img_13.png") !important
+  background-image: url("../assets/curso/temas/tema1/img_13.png") !important
   background-repeat: no-repeat
   background-position: right 30px center /* Centra la imagen */
   background-size: auto /* Ajusta la imagen al tamaño del div */
 
 .img_4
-  background-image: url("../assets/curso/images/tema1/img_14.png") !important
+  background-image: url("../assets/curso/temas/tema1/img_14.png") !important
   background-repeat: no-repeat
   background-position: right 30px center /* Centra la imagen */
   background-size: auto /* Ajusta la imagen al tamaño del div */
 
 .img_5
-  background-image: url("../assets/curso/images/tema1/img_15.png") !important
+  background-image: url("../assets/curso/temas/tema1/img_15.png") !important
   background-repeat: no-repeat
   background-position: right 30px center /* Centra la imagen */
   background-size: auto /* Ajusta la imagen al tamaño del div */
 
 .img_6
-  background-image: url("../assets/curso/images/tema1/img_16.png") !important
+  background-image: url("../assets/curso/temas/tema1/img_16.png") !important
   background-repeat: no-repeat
   background-position: right 30px center /* Centra la imagen */
   background-size: auto /* Ajusta la imagen al tamaño del div */
@@ -425,12 +417,11 @@ table, th, td
 
 .color-rosa-claro
   background-color: #F5F0E4 !important
-  
 
 .bg-color-1
-  background-image: url("../assets/curso/images/tema1/img_25.png") !important
-  background-repeat: no-repeat 
-  height: 82px  
+  background-image: url("../assets/curso/temas/tema1/img_25.png") !important
+  background-repeat: no-repeat
+  height: 82px
 
 // .bg-color-1
 //   display: flex
@@ -451,7 +442,7 @@ table, th, td
   border-width: 3px
   border-style: solid
   // border-color: black
-  
+
 .texto-color-acento-botones
   color: #008379 !important
 
@@ -470,28 +461,28 @@ table, th, td
 
 .pasos-a.color-acento-contenido .pasos-a__numero::after
   border-left-color: #A79162 !important
-      
+
 /* Configuración para pantallas grandes */
-@media (max-width: 1024px) 
-  .tarjeta_hover 
+@media (max-width: 1024px)
+  .tarjeta_hover
     width: 48% /* Dos columnas en la primera fila */
     margin-bottom: 20px /* Espacio entre las filas */
 
   .tarjeta_figura
     .col-md-6:first-child
       width: 100% /* Ocupa todo el ancho en pantallas grandes */
-    
+
     .col-md-6:last-child
       width: 70% /* Ocupa todo el ancho en pantallas grandes */
       margin-top: 20px
-    
+
   .text_completo
     .quitar_figura
       display: none
 
-    .col-7 
+    .col-7
       width: 79% !important
-      
+
   .fondo_6
     .col-md-4
       order: -1 /* Mueve la columna de la imagen hacia arriba */
@@ -515,7 +506,7 @@ table, th, td
 
     .col-md-9
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
-  
+
   .fondo_2_4
     .col-md-4
       order: -1
@@ -523,7 +514,7 @@ table, th, td
 
     .col-md-8
       width: 100%
-    
+
   .fondo_2_5
     .col-md-4
       order: -1 /* Mueve la columna de la imagen hacia arriba */
@@ -532,7 +523,6 @@ table, th, td
     .col-md-8
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
 
-      
   .fondo_2_6
     .col-md-5
       order: 0 /* Mueve la columna de la imagen hacia arriba */
@@ -540,7 +530,7 @@ table, th, td
 
     .col-md-7
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
-      
+
   .tarjeta_ordenadas
     .col-md-6.img_tarjeta
       order: 0
@@ -553,7 +543,7 @@ table, th, td
         width: 20%
         display: none
 
-@media (max-width: 425px) 
+@media (max-width: 425px)
   .fondo_2_5
     .col-md-8
       order: -1 /* Mueve la columna de la imagen hacia arriba */
@@ -563,9 +553,9 @@ table, th, td
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
 
   .text_completo
-    .col-7 
+    .col-7
       width: 58.333333% !important
-    
+
   .tarjeta_hover
     width: 100% /* Ocupaar todo el ancho en pantallas pequenas */
     /* Para que la tercera tarjeta ocupe toda la fila siguiente */
@@ -574,7 +564,7 @@ table, th, td
   padding-left: 0 /* Elimina el padding izquierdo por defecto */
   list-style: none /* Elimina los puntos de la lista */
 
-.lista-ul--color li 
+.lista-ul--color li
   display: flex /* Usa Flexbox para alinear elementos en línea */
   align-items: flex-start /* Alinea los elementos al inicio */
   margin-bottom: 10px /* Espacio entre los elementos de la lista */
@@ -582,12 +572,12 @@ table, th, td
 .lista-ul--color li i
   margin-right: 10px /* Espacio entre el ícono y el texto */
   flex-shrink: 0 /* Evita que el ícono se reduzca */
-  
+
 .lista-ul
   padding-left: 0 /* Elimina el padding izquierdo por defecto */
   list-style: none /* Elimina los puntos de la lista */
 
-.lista-ul li 
+.lista-ul li
   display: flex /* Usa Flexbox para alinear elementos en línea */
   align-items: flex-start /* Alinea los elementos al inicio */
   margin-bottom: 10px /* Espacio entre los elementos de la lista */
@@ -597,7 +587,7 @@ table, th, td
   flex-shrink: 0 /* Evita que el ícono se reduzca */
 
 //.lista-ul__vineta:before
-  color: #CC6B2B 
+  color: #CC6B2B
   font-size: 2.2rem
 
 .lista-ul--color
@@ -615,13 +605,12 @@ table, th, td
 
 // responsive general
 
-
 @media (min-width: 992px)
   .col-lg-7
-      flex: 0 0 auto
-      width: 48.333333%
-      
-@media (max-width: 1024px) 
+    flex: 0 0 auto
+    width: 48.333333%
+
+@media (max-width: 1024px)
 
   .tarjeta_responsive
     .col-lg-3
@@ -629,15 +618,15 @@ table, th, td
     img
       width: 20% !important
 
-  .tarjeta_hover 
+  .tarjeta_hover
     width: 48% /* Dos columnas en la primera fila */
     margin-bottom: 20px /* Espacio entre las filas */
-  
+
   .tarjetas_ordenadas
     .col-lg-4
       order: -1 !important
       width: 40% !important
-    
+
     .col-lg-8
       width: 100% !important
 
@@ -645,13 +634,13 @@ table, th, td
     .col-lg-4
       order: 0 !important
       width: 40% !important
-    
+
     .col-lg-8
       width: 100% !important
 
 /* Configuración para pantallas grandes */
-@media (max-width: 768px) 
-  
+@media (max-width: 768px)
+
   .tarjeta_responsive
     .col-lg-3
       width: 50% !important
@@ -661,12 +650,12 @@ table, th, td
   .tarjeta_enumeradas
     .col-md-4
       width: 50% !important
-  
+
   .tarjetas_ordenadas
     .col-lg-4
       order: -1 !important
       width: 50% !important
-    
+
     .col-lg-8
       width: 100% !important
 
@@ -681,7 +670,7 @@ table, th, td
       width: 50% !important
       margin: 0px auto
       margin-top: 20px
-    
+
     .col-md-7
       width: 100% !important
 
@@ -699,7 +688,7 @@ table, th, td
       order: -1 !important
       width: 50% !important
       margin-top: 20px
-    
+
     .col-md-6:first-child
       width: 100% !important
 
@@ -717,12 +706,12 @@ table, th, td
     .col-lg-4
       order: 0 !important
       width: 60% !important
-    
+
     .col-lg-8
       width: 100% !important
 
-@media (max-width: 425px) 
-  
+@media (max-width: 425px)
+
   .tarjeta_responsive
     .col-lg-3
       width: 100% !important
@@ -740,10 +729,10 @@ table, th, td
     .col-lg-4
       order: -1 !important
       width: 80% !important
-    
+
     .col-lg-8
       width: 100% !important
-  
+
   .tabs-b__tab:last-child
     border-right: 2px solid #FFF3EB
 
@@ -767,14 +756,14 @@ table, th, td
       order: -1 !important
       width: 80% !important
       margin-top: 20px
-    
+
     .col-md-6:first-child
       width: 100% !important
 
   .ordenar_img
     .col-lg-4
       width: 100%
-      
+
   .order_linea_tiempo
     .col-auto
       order: 1
@@ -785,14 +774,14 @@ table, th, td
     .col-lg-4
       order: 0 !important
       width: 80% !important
-    
+
     .col-lg-8
       width: 100% !important
 
   .tarjeta_figura
     .col-md-6:first-child
       width: 100% /* Ocupa todo el ancho en pantallas grandes */
-    
+
     .col-md-6:last-child
       width: 100% /* Ocupa todo el ancho en pantallas grandes */
       margin-top: 20px
@@ -824,15 +813,14 @@ table, th, td
   left: -9px
 
 /* Media Query para pantallas de 768px o menos */
-@media (max-width: 767px) 
-  .bgr_3 
+@media (max-width: 767px)
+  .bgr_3
     display: ''
 
 /* Media Query específico para pantallas de 425px o menos */
-@media (max-width: 425px) 
-  .bgr_3 
+@media (max-width: 425px)
+  .bgr_3
     display: ''
-
 
 .cajon
   p
@@ -850,8 +838,8 @@ table, th, td
     left: -48px
     width: calc(100% + 96px)
     height: 100%
-    background-image: url(../assets/curso/images/tema1/img_26.png) !important
-    background-repeat: no-repeat      
+    background-image: url(../assets/curso/temas/tema1/img_26.png) !important
+    background-repeat: no-repeat
   &_0
     position: relative
     div
@@ -864,8 +852,8 @@ table, th, td
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/images/tema1/img_26.png) !important
-      background-repeat: no-repeat 
+      background-image: url(../assets/curso/temas/tema1/img_26.png) !important
+      background-repeat: no-repeat
   &_1
     &::before
       width: calc(100% + 96px)
@@ -888,7 +876,7 @@ table, th, td
   &_3
     position: relative
     PasosA
-      position: relative
+    position: relative
     &::before
       content: ''
       position: absolute
@@ -924,7 +912,7 @@ table, th, td
       width: calc(100% + 96px)
       height: 100%
       // background-image: url(../assets/curso/temas/tema2/img_33.png) !important
-      background-repeat: no-repeat 
+      background-repeat: no-repeat
   &_6
     position: relative
     // .tarjeta
@@ -938,7 +926,7 @@ table, th, td
       width: calc(100% + 96px)
       height: 100%
       background: linear-gradient(0deg, rgba(250,248,242,0) 0%, rgba(250,248,242,1) 15%, rgba(250,248,242,1) 85%, rgba(250,248,242,0) 100%)
-      
+
 .tabs-b.color-rosado .tabs-b__tab--active
   background-color: #FFF3EB !important
 .tabs-b
@@ -952,7 +940,7 @@ table, th, td
   border-bottom: 2px solid #FFF3EB
   border-top: 2px solid #FFF3EB
   border-left: 2px solid #FFF3EB !important
-  
+
 .tabs-b__tab--active
   border-top: 5px #FF8636 solid !important
   border-bottom: 2px solid #FFF3EB !important
@@ -962,11 +950,10 @@ table, th, td
 
 .text-naranja
   color: #FF8636 !important
-  
+
 .tarjeta
   p
-    margin-bottom: 0px  
-
+    margin-bottom: 0px
 
 .cajon
   p

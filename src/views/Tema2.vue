@@ -17,7 +17,7 @@
 
       .col-md-8.col-xl-4.mb-3.order-1.order-xl-2
         figure
-          img(src='@/assets/curso/images/tema2/img_1.png', alt='Texto que describa la imagen')    
+          img(src='@/assets/curso/temas/tema2/img_1.png', alt='Texto que describa la imagen')    
       
     .bg_img_2
       .row.align-items-center.justify-content-center.mb-0
@@ -27,7 +27,7 @@
               span Pasos previos a la aplicación del HACCP  
 
           figure
-            img.mb-3(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen').mx-auto.w-75
+            img.mb-3(src='@/assets/curso/temas/tema2/img_2.png', alt='Los pasos previos a la aplicación del HACCP son: formación del equipo, descripción del producto, identificación del uso previsto, elaboración de diagrama de flujo y verificación in situ del diagrama de flujo.').mx-auto.w-75
             figcaption Fuente: tomado de https://www.portaldeinocuidad.com/web/que-es-el-haccp/
 
     Separador
@@ -35,10 +35,10 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative El Sistema HACCP 
-          img.pst(src='@/assets/curso/images/titulos/img_5.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_5.svg', alt='') 
 
     TabsB.color-rosado.mb-4.ordernar_tabs
-      .py-4.py-md-5(titulo="Definición" :icono="require('@/assets/curso/images/tema2/img_3.png')")
+      .py-4.py-md-5(titulo="Definición" :icono="require('@/assets/curso/temas/tema2/img_3.png')")
         .row.p-4
           .col-md-7
             h4 
@@ -46,9 +46,9 @@
         
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/images/tema2/img_8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_8.png', alt='Texto que describa la imagen')
       
-      .py-4.py-md-5(titulo="Concepto" :icono="require('@/assets/curso/images/tema2/img_4.png')")
+      .py-4.py-md-5(titulo="Concepto" :icono="require('@/assets/curso/temas/tema2/img_4.png')")
         .row.p-4
           .col-md-7
             h4 
@@ -56,9 +56,9 @@
             
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/images/tema2/img_9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_9.png', alt='Texto que describa la imagen')
       
-      .py-4.py-md-5(titulo="Aplicación" :icono="require('@/assets/curso/images/tema2/img_5.png')")
+      .py-4.py-md-5(titulo="Aplicación" :icono="require('@/assets/curso/temas/tema2/img_5.png')")
         .row.p-4
           .col-md-7
             h4 
@@ -66,9 +66,9 @@
             
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/images/tema2/img_10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_10.png', alt='Texto que describa la imagen')
       
-      .py-4.py-md-5(titulo="Beneficios" :icono="require('@/assets/curso/images/tema2/img_6.png')")
+      .py-4.py-md-5(titulo="Beneficios" :icono="require('@/assets/curso/temas/tema2/img_6.png')")
         .row.p-4
           .col-md-7
             h4 
@@ -77,9 +77,9 @@
 
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/images/tema2/img_11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_11.png', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="Tendencias y regulaciones" :icono="require('@/assets/curso/images/tema2/img_7.png')")
+      .py-4.py-md-5(titulo="Tendencias y regulaciones" :icono="require('@/assets/curso/temas/tema2/img_7.png')")
         .row.p-4
           .col-md-7
             h4 
@@ -87,7 +87,7 @@
             
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/images/tema2/img_12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_12.png', alt='Texto que describa la imagen')
       
     .row.justify-content-center.align-items-center.mb-3
       .col-md-12
@@ -100,7 +100,7 @@
       .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
         .div.mb-4(data-aos="fade-right")
           h3.bgr_3.position-relative Principios fundamentales del HACCP
-            img.pst(src='@/assets/curso/images/titulos/img_6.png', alt='') 
+            img.pst(src='@/assets/curso/temas/titulos/img_6.svg', alt='') 
 
       .row.align-items-center.justify-content-center.mb-0.fondo_1
         .col-md-10.mb-2
@@ -111,7 +111,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-3
               figure
-                img.mb-3(src='@/assets/curso/images/tema2/img_13.png', alt='Texto que describa la imagen').mx-auto
+                img.mb-3(src='@/assets/curso/temas/tema2/img_13.png', alt='El ciclo de principios aplicados del HACCP, son: análisis de peligros, identificación de los PCC, límites críticos, monitoreo, medidas correctivas, verificación y documentación y riesgo.').mx-auto
                 figcaption Fuente: tomado de https://www.portaldeinocuidad.com/web/que-es-el-haccp/
             .col-lg-6.mb-3
               .tarjeta.color_blanco.p-3
@@ -128,9 +128,9 @@
             caption Fuente: Elaboración propia
             thead.encabezado-tabla
               tr 
-                th Principio/th 
-                th Descripción/th 
-                th Propósito/th 
+                th Principio
+                th Descripción
+                th Propósito
 
             tbody 
               tr 
@@ -172,13 +172,13 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative Identificación de peligros
-          img.pst(src='@/assets/curso/images/titulos/img_7.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_7.svg', alt='') 
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12.mb-3
         .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_14.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img_14.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-2 El primer paso en el sistema HACCP es identificar los peligros potenciales que pueden afectar la inocuidad de los alimentos. Estos peligros pueden ser biológicos, químicos o físicos y pueden estar presentes en cualquier etapa de la producción, desde la cosecha hasta la distribución.
@@ -187,32 +187,32 @@
     .row.mb-3
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.p-4.h-100.fondo_3
-          img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_15.png")
+          img.w-25.mx-auto(src="@/assets/curso/temas/tema2/img_15.png")
           h5 Biológicos
           p Bacterias (Salmonella, E. coli, Listeria), virus (hepatitis A, norovirus), hongos (Aspergillus, Penicillium) y parásitos. Estos pueden contaminar los alimentos durante su producción, procesamiento, manipulación, almacenamiento o distribución.
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
-          img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_16.png")
+          img.w-25.mx-auto(src="@/assets/curso/temas/tema2/img_16.png")
           h5 Químicos
           p Residuos de pesticidas, metales pesados, toxinas naturales (como las micotoxinas producidas por los hongos), sustancias químicas agregadas como aditivos o colorantes, y residuos de detergentes o desinfectantes.
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.fondo_3.p-4.h-100
-          img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_17.png")
+          img.w-25.mx-auto(src="@/assets/curso/temas/tema2/img_17.png")
           h5 Físicos
           p Objetos extraños como pedazos de metal, vidrio, plástico, madera, insectos, pelo, tierra o huesos, que pueden contaminar los alimentos durante su producción, procesamiento, manipulación, almacenamiento o distribución.
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
-          img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_18.png")
+          img.w-25.mx-auto(src="@/assets/curso/temas/tema2/img_18.png")
           h5 Contaminantes naturales
           p Micotoxinas, toxinas de algunos moluscos que afecta los productos pesqueros, bifenilos y alcaloides de algunos alimentos que ocasionan cáncer de vías digestivas, intoxicaciones y alergias.
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.fondo_3.p-4.h-100
-          img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_19.png")
+          img.w-25.mx-auto(src="@/assets/curso/temas/tema2/img_19.png")
           h5 Agroquímicos
           p Comprende sustancias de uso veterinario, antibióticos, pesticidas, funguicidas, insecticidas, fertilizantes que afectan las carnes, frutas y hortalizas, los cereales, las leches y ocasionan por exposición prolongada tumores, deformaciones congénitas, resistencia a los antibióticos, trastornos fisiológicos.
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
-          img.w-25.mx-auto(src="@/assets/curso/images/tema2/img_20.png")
+          img.w-25.mx-auto(src="@/assets/curso/temas/tema2/img_20.png")
           h5 Aditivos
           p Colorantes, resaltadores, sabor, conservantes, nitritos.
 
@@ -225,13 +225,13 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative Establecimiento de Puntos Críticos de Control (PCC)
-          img.pst(src='@/assets/curso/images/titulos/img_8.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_8.svg', alt='') 
 
 
     .row.justify-content-center.mb-3
       .col-lg-12.mb-3
         figure
-          img(src="@/assets/curso/images/tema2/img_21.png", alt="alt")
+          img(src="@/assets/curso/temas/tema2/img_21.png", alt="alt")
 
       p Una vez identificados los peligros, el siguiente paso es determinar los puntos críticos de control (PCC). Un PCC es un punto en el proceso de producción donde se puede prevenir o eliminar un peligro específico.
 
@@ -248,7 +248,7 @@
 
             .col-md-8.col-lg-6
               figure
-              img(src='@/assets/curso/images/tema2/img_22.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_22.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-2
@@ -260,7 +260,7 @@
 
             .col-md-8.col-lg-6
               figure
-                img(src='@/assets/curso/images/tema2/img_23.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img_23.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
@@ -271,7 +271,7 @@
 
             .col-md-8.col-lg-6
               figure
-                img(src='@/assets/curso/images/tema2/img_24.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img_24.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
@@ -282,14 +282,14 @@
 
             .col-md-8.col-lg-6
               figure
-                img(src='@/assets/curso/images/tema2/img_25.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img_25.png', alt='Texto que describa la imagen')
               
     Separador
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative Vigilancia y acciones correctivas
-          img.pst(src='@/assets/curso/images/titulos/img_9.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_9.svg', alt='') 
 
     p.mb-3 Para asegurar la efectividad del sistema HACCP, es necesario monitorizar los PCC y tomar acciones correctivas si se detectan desviaciones. 
 
@@ -302,7 +302,7 @@
               
           .col-md-4.mb-4
             figure
-              img(src="@/assets/curso/images/tema2/img_26.png", alt="alt")
+              img(src="@/assets/curso/temas/tema2/img_26.png", alt="alt")
 
         .row(numero="2" titulo="Monitoreo continuo").align-items-center 
           .col-md-8.mb-4.mb-md-0
@@ -310,7 +310,7 @@
               
           .col-md-4.mb-4
             figure
-              img(src="@/assets/curso/images/tema2/img_27.png", alt="alt")
+              img(src="@/assets/curso/temas/tema2/img_27.png", alt="alt")
 
         .row(numero="3" titulo="Registro de datos").align-items-center 
           .col-md-8.mb-4.mb-md-0
@@ -318,7 +318,7 @@
               
           .col-md-4.mb-4
             figure
-              img(src="@/assets/curso/images/tema2/img_28.png", alt="alt")
+              img(src="@/assets/curso/temas/tema2/img_28.png", alt="alt")
         
         .row(numero="4" titulo="Acciones correctivas").align-items-center 
           .col-md-8.mb-4.mb-md-0
@@ -326,7 +326,7 @@
               
           .col-md-4.mb-4
             figure
-              img(src="@/assets/curso/images/tema2/img_29.png", alt="alt")
+              img(src="@/assets/curso/temas/tema2/img_29.png", alt="alt")
           
     .row.justify-content-center
       .col-lg-12.mb-4
@@ -337,7 +337,7 @@
         .tarjeta.bg-7.p-3
           .row.justify-content-around.align-items-center
             .col-auto
-              img(src="@/assets/curso/images/tema2/img_30.png").img65
+              img(src="@/assets/curso/temas/tema2/img_30.png").img65
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

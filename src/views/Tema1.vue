@@ -11,7 +11,7 @@
       .col-lg-12.mb-3
         .bloque-texto-g.bloque-texto-g.similar-color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_0.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_0.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Las Enfermedades Transmitidas por Alimentos (ETA) son infecciones o intoxicaciones resultantes del consumo de alimentos contaminados, generalmente por microorganismos patógenos como bacterias, virus y parásitos, o sustancias químicas nocivas. Estas enfermedades pueden afectar mucho a la salud pública, provocando síntomas leves, como malestar estomacal, hasta cuadros graves que afectan a la salud de las poblaciones. Comprender las causas y mecanismos de estas enfermedades es vital para desarrollar estrategias efectivas de prevención y control, protegiendo así a los consumidores de brotes que puedan amenazar su bienestar.
@@ -21,11 +21,11 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Definición y Conceptos Básicos 
-          img.pst(src='@/assets/curso/images/titulos/img_1.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_1.svg', alt='') 
 
     p.mb-3 Las Enfermedades Transmitidas por Alimentos (ETA) son un problema de salud pública que surge cuando se consumen alimentos contaminados. Estas enfermedades pueden provocar infecciones o intoxicaciones en el organismo, generalmente debido a la presencia de microorganismos como bacterias, virus y parásitos, o por sustancias químicas peligrosas. Su conocimiento y prevención resultan esenciales para garantizar la seguridad alimentaria y proteger la salud de las personas.
 
-    .tarjeta.fondo_1_2.p-4.slyder_1.bg-01.mb-4
+    .tarjeta.fondo_1_2.p-4.slyder_1.bg-01.mb-5
       SlyderA(tipo="b")
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-2
@@ -36,11 +36,11 @@
 
               .col-5
                 figure
-                img.w-50(src='@/assets/curso/images/tema1/img_1.png', alt='Texto que describa la imagen')
+                img.w-50(src='@/assets/curso/temas/tema1/img_1.png', alt='Texto que describa la imagen')
 
             .col-lg-6
               figure
-              img(src='@/assets/curso/images/tema1/img_2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img_2.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-2
@@ -52,11 +52,11 @@
 
               .col-5
                 figure
-                img.w-50(src='@/assets/curso/images/tema1/img_3.png', alt='Texto que describa la imagen')
+                img.w-50(src='@/assets/curso/temas/tema1/img_3.png', alt='Texto que describa la imagen')
 
             .col-lg-6
               figure
-                img(src='@/assets/curso/images/tema1/img_4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img_4.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-2
@@ -67,11 +67,15 @@
 
               .col-5
                 figure
-                img.w-50(src='@/assets/curso/images/tema1/img_5.png', alt='Texto que describa la imagen')
+                img.w-50(src='@/assets/curso/temas/tema1/img_5.png', alt='Texto que describa la imagen')
 
             .col-lg-6
               figure
-                img(src='@/assets/curso/images/tema1/img_6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img_6.png', alt='Texto que describa la imagen')
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Definición y Conceptos Básicos  
+          img.pst(src='@/assets/curso/temas/titulos/img_8.svg', alt='') 
 
     p.mb-3 Por lo anterior, es imprescindible un control eficaz de la higiene, para evitar las consecuencias perjudiciales de las enfermedades y los daños causados por los alimentos y por su deterioro en la salud y la economía.
     p.mb-3 Las enfermedades trasmitidas por los alimentos (ETA) constituyen el problema de salud pública más extendido en el mundo, por lo que es necesario mantener su vigilancia epidemiológica para aplicar medidas oportunas que permitan su control y prevención, y asegurarse de que los alimentos sean inocuos y aptos para el consumo humano.
@@ -81,7 +85,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Tipos de ETA 
-          img.pst(src='@/assets/curso/images/titulos/img_2.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_2.svg', alt='') 
 
     p.mb-4 Los microrganismos en los alimentos pueden causar alteraciones de dos tipos: <em>Alteración del poder nutritivo y de las propiedades organolépticas.</em> Para el caso de las enfermedades que pueden ocasionar en el hombre, estas pueden ser infecciones, intoxicaciones o alergias. Por lo tanto, las enfermedades transmitidas por alimentos son un conjunto de enfermedades que resultan de la ingestión de alimentos contaminados con algunos de los siguientes elementos:
     
@@ -90,28 +94,28 @@
         .col-md-6.col-xl-3.mb-2
           .tarjeta.fondo-dorado.p-4.h-100.text-center
             figure
-              img(src="@/assets/curso/images/tema1/img_7.png", alt="alt").w-50.mx-auto.mb-3
+              img(src="@/assets/curso/temas/tema1/img_7.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Microorganismos.  
             //- p La temperatura de refrigeración no debe superar los 4°C para asegurar una buena conservación de los productos.
         
         .col-md-6.col-xl-3.mb-2
           .tarjeta.fondo-dorado.p-4.h-100.text-center
             figure
-              img(src="@/assets/curso/images/tema1/img_8.png", alt="alt").w-50.mx-auto.mb-3
+              img(src="@/assets/curso/temas/tema1/img_8.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Toxinas de microorganismos.
             //- p La temperatura de congelación no debe superar los -18°C para una conservación a largo plazo.
         
         .col-md-6.col-xl-3.mb-2
           .tarjeta.fondo-dorado.p-4.h-100.text-center
             figure
-              img(src="@/assets/curso/images/tema1/img_9.png", alt="alt").w-50.mx-auto.mb-3
+              img(src="@/assets/curso/temas/tema1/img_9.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Agentes químicos.
             p plaguicidas, metales, aditivos.
 
         .col-md-6.col-xl-3.mb-2
           .tarjeta.fondo-dorado.p-4.h-100.text-center
             figure
-              img(src="@/assets/curso/images/tema1/img_10.png", alt="alt").w-50.mx-auto.mb-3
+              img(src="@/assets/curso/temas/tema1/img_10.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Alimentos que naturalmente pueden contener sustancias tóxicas.
             p Moluscos, vegetales, hongos.
   
@@ -164,7 +168,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Según el mecanismo de acción
-          img.pst(src='@/assets/curso/images/titulos/img_3.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_3.svg', alt='') 
 
     .row.justify-content-center.mb-3.tarjetas_ordenadas
       .col-lg-8.mb-4
@@ -183,7 +187,7 @@
 
       .col-lg-4.mb-4
         figure
-          img(src="@/assets/curso/images/tema1/img_17.png", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img_17.png", alt="alt")
 
         
     Separador
@@ -191,7 +195,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Según el tipo de agente causante
-          img.pst(src='@/assets/curso/images/titulos/img_4.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_4.svg', alt='') 
 
     .bg_img_4
       .row.justify-content-center.align-items-center.mb-5
@@ -199,7 +203,7 @@
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/images/tema1/img_18.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img_18.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Bacterias
               p.mb-0 La mayoría de las ETAs son causadas por bacterias. Ejemplos: Salmonella, <em>Escherichia coli, Listeria monocytogenes, Campylobacter jejuni, Clostridium botulinum, Bacillus cereus, Staphylococcus aureus.</em>
@@ -208,7 +212,7 @@
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/images/tema1/img_19.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img_19.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Virus
               p.mb-0 Algunos ejemplos de virus que causan ETAs: virus de la hepatitis A, Norovirus, Rotavirus.
@@ -217,7 +221,7 @@
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/images/tema1/img_20.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img_20.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Hongos
               p.mb-0 Los hongos pueden producir micotoxinas que causan intoxicaciones. Ejemplos: <em>Aspergillus, Penicillium, Fusarium.</em>
@@ -226,7 +230,7 @@
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/images/tema1/img_21.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img_21.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Parásitos
               p.mb-0 Algunos parásitos que causan ETAs: <em>Cryptosporidium, Giardia lamblia, Toxoplasma gondii.</em>
@@ -235,7 +239,7 @@
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/images/tema1/img_22.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img_22.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Toxinas
               p.mb-0 Las toxinas pueden estar presentes en los alimentos de manera natural o ser producidas por microorganismos. Ejemplos: toxinas de las algas, micotoxinas producidas por hongos, toxinas de algunos mariscos.
@@ -245,7 +249,7 @@
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/images/tema1/img_23.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img_23.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Sustancias químicas
               p.mb-0 Pesticidas, metales pesados, aditivos alimentarios, contaminantes ambientales.

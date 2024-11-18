@@ -11,7 +11,7 @@
       .col-lg-12.mb-3
         .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_1.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img_1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-2 El Aseguramiento de la Calidad Alimentaria se centra en establecer y mantener altos estándares de seguridad y calidad en todos los aspectos de la producción y distribución de alimentos. Este componente crucial implica la integración de sistemas de gestión de calidad, tales como el Análisis de Peligros y Puntos Críticos de Control (HACCP), que ayudan a identificar y mitigar riesgos antes de que los productos lleguen al mercado. La implementación de regímenes de control riguroso y auditorías continuas, junto con la capacitación del personal, asegura que los alimentos no solo cumplan con las normativas legales, sino que también superen las expectativas de calidad y seguridad de los consumidores.
@@ -19,24 +19,24 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Codex Alimentarius
-          img.pst(src='@/assets/curso/images/titulos/img_10.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_10.svg', alt='') 
 
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-8.mb-3
         p El <em>Codex Alimentarius</em>, o código alimentario, se ha convertido en un punto de referencia mundial para los consumidores, los productores y elaboradores de alimentos, los organismos nacionales de control de los alimentos y el comercio alimentario internacional. Su repercusión sobre el modo de pensar de quienes intervienen en la producción y elaboración de alimentos y quienes los consumen ha sido enorme. Su influencia se extiende a todos los continentes y su contribución a la protección de la salud de los consumidores y a la garantía de unas prácticas equitativas en el comercio alimentario es incalculable.
       .col-md-8.col-lg-4.mb-3
         figure
-          img(src='@/assets/curso/images/tema3/img_2.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/img_2.png', alt='Texto que describa la imagen')
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative Recomendaciones de la comisión del <em>Codex Alimentarius</em>
-          img.pst(src='@/assets/curso/images/titulos/img_11.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_11.svg', alt='') 
 
     .row.justify-content-center.align-items-center.mb-2
       .col-md-8.col-xl-4.mb-3
         figure
-          img(src='@/assets/curso/images/tema3/img_3.png', alt='Texto que describa la imagen')    
+          img(src='@/assets/curso/temas/tema3/img_3.png', alt='Texto que describa la imagen')    
       .col-xl-8.mb-3
         p.mb-3 La comisión del <em>Codex Alimentarius</em> es el más alto organismo internacional en materia de normas de alimentación. La importancia del Codex Alimentarius para la protección de la salud de los consumidores fue subrayada por la Resolución 39/248 de 1985 de las Naciones Unidas; en dicha Resolución se adoptaron directrices para elaborar y reforzar las políticas de protección del consumidor.
         p.mb-3 En las directrices se recomienda que, al formular políticas y planes nacionales relativos a los alimentos, los gobiernos tengan en cuenta la necesidad de seguridad alimentaria de todos los consumidores y apoyen, en la medida de lo posible, adopten las normas del Codex Alimentarius o; en su defecto, otras normas alimentarias internacionales de aceptación general.
@@ -52,7 +52,7 @@
           .tarjeta.bg-7.p-3
             .row.justify-content-around.align-items-center
               .col-auto
-                img(src="@/assets/curso/images/tema3/img_4.png").img65
+                img(src="@/assets/curso/temas/tema3/img_4.png").img65
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
@@ -71,7 +71,7 @@
 
       .col-md-8.col-xl-4.mb-3
         figure
-          img(src='@/assets/curso/images/tema3/img_5.png', alt='Texto que describa la imagen').mx-auto 
+          img(src='@/assets/curso/temas/tema3/img_5.png', alt='Texto que describa la imagen').mx-auto 
       
     
     .cajon.color-acento-contenido.p-4.mb-5
@@ -86,13 +86,13 @@
         .row.justify-content-center
           .col-md-12
             figure
-              img.mb-3(src='@/assets/curso/images/tema3/img_6.png', alt='Texto que describa la imagen').mx-auto
+              img.mb-3(src='@/assets/curso/temas/tema3/img_6.png', alt='Se explica los 8 trámites para las normas del Codex a continuación.').mx-auto
               figcaption Fuente: tomado de https://www.fao.org/fileadmin/user_upload/codexalimentarius/photo-archive/Infographics/8_tramites.jpg 
 
     .row.align-items-center.justify-content-center.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative Medidas sanitarias de seguridad en Colombia
-          img.pst(src='@/assets/curso/images/titulos/img_12.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_12.svg', alt='') 
 
     .row.justify-content-center.align-items-center.mb-3
       .col-md-12
@@ -109,7 +109,7 @@
 
             .col-md-8.col-xl-6
               figure
-              img(src='@/assets/curso/images/tema3/img_7.png', alt='Texto que describa la imagen').mx-auto
+              img(src='@/assets/curso/temas/tema3/img_7.png', alt='Texto que describa la imagen').mx-auto
 
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-3
@@ -121,29 +121,29 @@
 
             .col-md-8.col-xl-6
               figure
-                img(src='@/assets/curso/images/tema3/img_8.png', alt='Texto que describa la imagen').mx-auto
+                img(src='@/assets/curso/temas/tema3/img_8.png', alt='Texto que describa la imagen').mx-auto
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3
             .col-xl-6.mb-4.mb-xl-0
-              h3.mb-3 Evolución del marco jurídico
+              h3.mb-3 Fortalemeciento de la cultura alimentaria
 
               p La oportunidad radica en el fortalecimiento de los hábitos alimentarios tradicionales y locales, así como en el desarrollo de pequeñas industrias y de estructuras cooperativas de comercialización, y fuente de empleo. El desafío es proporcionar a las autoridades gubernamentales y municipales los medios necesarios para garantizar la inocuidad y la calidad de dichos alimentos y estimular al mismo tiempo el desarrollo de este sector.
 
             .col-md-8.col-xl-6
               figure
-                img(src='@/assets/curso/images/tema3/img_9.png', alt='Texto que describa la imagen').mx-auto
+                img(src='@/assets/curso/temas/tema3/img_9.png', alt='Texto que describa la imagen').mx-auto
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3.tarjeta_figura
             .col-xl-6.mb-4.mb-xl-0
-              h3.mb-3 Distribución y venta
+              h3.mb-3 Evolución del marco jurídico.
 
               p El marco legal para la higiene y seguridad alimentaria en Colombia se ha desarrollado a través de varias resoluciones y decretos, evolucionando para incorporar mejores prácticas y estándares internacionales, se presentan sus variaciones y cambios acordes a la normatividad global.
 
             .col-md-8.col-xl-6
               figure
-                img(src='@/assets/curso/images/tema3/img_9_1.png', alt='Texto que describa la imagen').mx-auto
+                img(src='@/assets/curso/temas/tema3/img_9_1.png', alt='Texto que describa la imagen').mx-auto
 
     h5.text-center.mb-4 Aquí se presenta un breve recorrido de la evolución del sistema jurídico que reglamenta las medidas sanitarias en relación con la manipulación de elementos.
 
@@ -164,12 +164,12 @@
 
               .col-md-8.col-lg-6
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/images/tema3/img_10.png', alt='').img125
+                  img(src='@/assets/curso/temas/tema3/img_10.png', alt='').img125
 
             .row.justify-content-center
               .col-md-8.col-lg-6.mb-3
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/images/tema3/img_11.png', alt='').img1125
+                  img(src='@/assets/curso/temas/tema3/img_11.png', alt='').img1125
               .col-lg-6.mb-4.mb-lg-0
                 h3 Decreto 3075 de 1997
                 ul.lista-ul
@@ -196,12 +196,12 @@
 
               .col-md-8.col-lg-6
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/images/tema3/img_12.png', alt='').img125
+                  img(src='@/assets/curso/temas/tema3/img_12.png', alt='').img125
 
             .row.justify-content-center
               .col-md-8.col-lg-6.mb-3
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/images/tema3/img_13.png', alt='').img125
+                  img(src='@/assets/curso/temas/tema3/img_13.png', alt='').img125
               .col-lg-6.mb-4.mb-lg-0
                 h3 Resolución 719 de 2015
                 ul.lista-ul
@@ -219,13 +219,13 @@
                     
               .col-md-8.col-lg-6
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/images/tema3/img_14.png', alt='').img125
+                  img(src='@/assets/curso/temas/tema3/img_14.png', alt='').img125
 
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-4(data-aos="fade-right")
         h3.bgr_3.position-relative Supervisión por el Invima
-          img.pst(src='@/assets/curso/images/titulos/img_12.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_12.svg', alt='') 
 
     p.mb-3 El Invima es el organismo encargado de vigilar y aplicar estas regulaciones. Se asegura de que las industrias alimentarias cumplan con los estándares establecidos, mediante inspecciones regulares y la implementación de normativas que protejan la salud pública.               
 
@@ -241,12 +241,12 @@
           
       .col-lg-4.mb-4
         figure
-          img(src="@/assets/curso/images/tema3/img_15.png", alt="alt")
+          img(src="@/assets/curso/temas/tema3/img_15.png", alt="alt")
 
     .row.justify-content-center(data-aos="zoom-in-down")
       .col-lg-12.mb-4
         .cajon.bg-3.p-4
-          p.mb-0 La implementación del sistema HACCP requiere un compromiso continuo de todos los involucrados en la producción y distribución de alimentos. Es una herramienta esencial para garantizar la seguridad alimentaria y proteger la salud de los consumidores. 
+          p.mb-0 Este marco legal cohesivo garantiza una estructura de protección integral para consumidores y promueve prácticas seguras y eficientes en la industria alimentaria colombiana. La evolución constante de estas normas refleja el compromiso de Colombia con la seguridad alimentaria global y la adecuación a estándares internacionales. 
 
 
 </template>
