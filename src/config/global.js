@@ -112,7 +112,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/72310017_CF002_DU.pdf',
+        download: 'downloads/CF2_72310017_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -205,7 +205,7 @@ export default {
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
@@ -254,7 +254,7 @@ export default {
         },
         {
           nombre: 'Carmen Alicia Martinez Torres',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y producción audiovisual',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },

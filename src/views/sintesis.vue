@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 Las enfermedades transmitidas por alimentos pueden ser infecciones, causadas por microorganismos o intoxicaciones, causadas por sustancias químicas. Para prevenir estas enfermedades, es fundamental mantener la limpieza, evitar la contaminación cruzada, cocinar los alimentos correctamente y aplicar el Codex Alimentarius y el sistema HACCP, este resumen se presenta a continuación:
+    p.mb-5 Las enfermedades transmitidas por alimentos pueden ser infecciones, causadas por microorganismos o intoxicaciones, causadas por sustancias químicas. Para prevenir estas enfermedades, es fundamental mantener la limpieza, evitar la contaminación cruzada, cocinar los alimentos correctamente y aplicar el <em>Codex Alimentarius</em> y el sistema HACCP, este resumen se presenta a continuación:
 
     .row.justify-content-center
       .col-lg-12.mb-5

@@ -18,7 +18,7 @@
             
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-3(data-aos="fade-right")
-        h3.bgr_3.position-relative Codex Alimentarius
+        h3.bgr_3.position-relative <em>Codex Alimentarius</em>
           img.pst(src='@/assets/curso/temas/titulos/img_10.svg', alt='') 
 
     .row.justify-content-center.align-items-center.mb-2
@@ -26,7 +26,7 @@
         p El <em>Codex Alimentarius</em>, o código alimentario, se ha convertido en un punto de referencia mundial para los consumidores, los productores y elaboradores de alimentos, los organismos nacionales de control de los alimentos y el comercio alimentario internacional. Su repercusión sobre el modo de pensar de quienes intervienen en la producción y elaboración de alimentos y quienes los consumen ha sido enorme. Su influencia se extiende a todos los continentes y su contribución a la protección de la salud de los consumidores y a la garantía de unas prácticas equitativas en el comercio alimentario es incalculable.
       .col-md-8.col-lg-4.mb-3
         figure
-          img(src='@/assets/curso/temas/tema3/img_2.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/img_2.png', alt='Imagen decorativa')
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-4(data-aos="fade-right")
@@ -36,13 +36,13 @@
     .row.justify-content-center.align-items-center.mb-2
       .col-md-8.col-xl-4.mb-3
         figure
-          img(src='@/assets/curso/temas/tema3/img_3.png', alt='Texto que describa la imagen')    
+          img(src='@/assets/curso/temas/tema3/img_3.png', alt='Imagen decorativa')    
       .col-xl-8.mb-3
-        p.mb-3 La comisión del <em>Codex Alimentarius</em> es el más alto organismo internacional en materia de normas de alimentación. La importancia del Codex Alimentarius para la protección de la salud de los consumidores fue subrayada por la Resolución 39/248 de 1985 de las Naciones Unidas; en dicha Resolución se adoptaron directrices para elaborar y reforzar las políticas de protección del consumidor.
-        p.mb-3 En las directrices se recomienda que, al formular políticas y planes nacionales relativos a los alimentos, los gobiernos tengan en cuenta la necesidad de seguridad alimentaria de todos los consumidores y apoyen, en la medida de lo posible, adopten las normas del Codex Alimentarius o; en su defecto, otras normas alimentarias internacionales de aceptación general.
+        p.mb-3 La comisión del <em>Codex Alimentarius</em> es el más alto organismo internacional en materia de normas de alimentación. La importancia del <em>Codex Alimentarius</em> para la protección de la salud de los consumidores fue subrayada por la Resolución 39/248 de 1985 de las Naciones Unidas; en dicha Resolución se adoptaron directrices para elaborar y reforzar las políticas de protección del consumidor.
+        p.mb-3 En las directrices se recomienda que, al formular políticas y planes nacionales relativos a los alimentos, los gobiernos tengan en cuenta la necesidad de seguridad alimentaria de todos los consumidores y apoyen, en la medida de lo posible, adopten las normas del <em>Codex Alimentarius</em> o; en su defecto, otras normas alimentarias internacionales de aceptación general.
 
         .cajon.bg-5.p-4.mb-3
-          p.mb-0 La comisión del <em>Codex Alimentarius</em>, es el órgano competente para la compilación de normas, códigos de prácticas, directrices y recomendaciones que constituyen el <em>Codex Alimentarius</em>. Desde la primera publicación, el modo de funcionamiento <em>Codex Alimentarius</em> significa “Código de alimentación” y es la compilación de todas las normas, códigos de comportamientos, directrices y recomendaciones de la Comisión del Codex Alimentarius. La Comisión del <em>Codex Alimentarius</em> es el más alto organismo internacional en materia de normas de alimentación.
+          p.mb-0 La comisión del <em>Codex Alimentarius</em>, es el órgano competente para la compilación de normas, códigos de prácticas, directrices y recomendaciones que constituyen el <em>Codex Alimentarius</em>. Desde la primera publicación, el modo de funcionamiento <em>Codex Alimentarius</em> significa “Código de alimentación” y es la compilación de todas las normas, códigos de comportamientos, directrices y recomendaciones de la Comisión del <em>Codex Alimentarius</em>. La Comisión del <em>Codex Alimentarius</em> es el más alto organismo internacional en materia de normas de alimentación.
 
         p Desde la primera publicación, el modo de funcionamiento del Codex ha sufrido numerosas modificaciones. La publicación “Que es el Codex” está disponible en inglés, francés, español, árabe, chino y ruso.  
 
@@ -71,7 +71,7 @@
 
       .col-md-8.col-xl-4.mb-3
         figure
-          img(src='@/assets/curso/temas/tema3/img_5.png', alt='Texto que describa la imagen').mx-auto 
+          img(src='@/assets/curso/temas/tema3/img_5.png', alt='Imagen decorativa').mx-auto 
       
     
     .cajon.color-acento-contenido.p-4.mb-5
@@ -109,7 +109,7 @@
 
             .col-md-8.col-xl-6
               figure
-              img(src='@/assets/curso/temas/tema3/img_7.png', alt='Texto que describa la imagen').mx-auto
+              img(src='@/assets/curso/temas/tema3/img_7.png', alt='Imagen decorativa').mx-auto
 
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-3
@@ -121,7 +121,7 @@
 
             .col-md-8.col-xl-6
               figure
-                img(src='@/assets/curso/temas/tema3/img_8.png', alt='Texto que describa la imagen').mx-auto
+                img(src='@/assets/curso/temas/tema3/img_8.png', alt='Imagen decorativa').mx-auto
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3
@@ -132,7 +132,7 @@
 
             .col-md-8.col-xl-6
               figure
-                img(src='@/assets/curso/temas/tema3/img_9.png', alt='Texto que describa la imagen').mx-auto
+                img(src='@/assets/curso/temas/tema3/img_9.png', alt='Imagen decorativa').mx-auto
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3.tarjeta_figura
@@ -143,7 +143,7 @@
 
             .col-md-8.col-xl-6
               figure
-                img(src='@/assets/curso/temas/tema3/img_9_1.png', alt='Texto que describa la imagen').mx-auto
+                img(src='@/assets/curso/temas/tema3/img_9_1.png', alt='Imagen decorativa').mx-auto
 
     h5.text-center.mb-4 Aquí se presenta un breve recorrido de la evolución del sistema jurídico que reglamenta las medidas sanitarias en relación con la manipulación de elementos.
 

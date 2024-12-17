@@ -36,11 +36,11 @@
 
               .col-5
                 figure
-                img.w-50(src='@/assets/curso/temas/tema1/img_1.png', alt='Texto que describa la imagen')
+                img.w-50(src='@/assets/curso/temas/tema1/img_1.png', alt='Imagen decorativa')
 
             .col-lg-6
               figure
-              img(src='@/assets/curso/temas/tema1/img_2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img_2.png', alt='Imagen decorativa')
 
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-2
@@ -52,11 +52,11 @@
 
               .col-5
                 figure
-                img.w-50(src='@/assets/curso/temas/tema1/img_3.png', alt='Texto que describa la imagen')
+                img.w-50(src='@/assets/curso/temas/tema1/img_3.png', alt='Imagen decorativa')
 
             .col-lg-6
               figure
-                img(src='@/assets/curso/temas/tema1/img_4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img_4.png', alt='Imagen decorativa')
 
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-2
@@ -67,15 +67,11 @@
 
               .col-5
                 figure
-                img.w-50(src='@/assets/curso/temas/tema1/img_5.png', alt='Texto que describa la imagen')
+                img.w-50(src='@/assets/curso/temas/tema1/img_5.png', alt='Imagen decorativa')
 
             .col-lg-6
               figure
-                img(src='@/assets/curso/temas/tema1/img_6.png', alt='Texto que describa la imagen')
-    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
-        h3.bgr_3.position-relative Definición y Conceptos Básicos  
-          img.pst(src='@/assets/curso/temas/titulos/img_8.svg', alt='') 
+                img(src='@/assets/curso/temas/tema1/img_6.png', alt='Imagen decorativa')
 
     p.mb-3 Por lo anterior, es imprescindible un control eficaz de la higiene, para evitar las consecuencias perjudiciales de las enfermedades y los daños causados por los alimentos y por su deterioro en la salud y la economía.
     p.mb-3 Las enfermedades trasmitidas por los alimentos (ETA) constituyen el problema de salud pública más extendido en el mundo, por lo que es necesario mantener su vigilancia epidemiológica para aplicar medidas oportunas que permitan su control y prevención, y asegurarse de que los alimentos sean inocuos y aptos para el consumo humano.
@@ -87,7 +83,7 @@
         h3.bgr_3.position-relative Tipos de ETA 
           img.pst(src='@/assets/curso/temas/titulos/img_2.svg', alt='') 
 
-    p.mb-4 Los microrganismos en los alimentos pueden causar alteraciones de dos tipos: <em>Alteración del poder nutritivo y de las propiedades organolépticas.</em> Para el caso de las enfermedades que pueden ocasionar en el hombre, estas pueden ser infecciones, intoxicaciones o alergias. Por lo tanto, las enfermedades transmitidas por alimentos son un conjunto de enfermedades que resultan de la ingestión de alimentos contaminados con algunos de los siguientes elementos:
+    p.mb-4 Los microorganismos en los alimentos pueden causar alteraciones de dos tipos: <em>alteración del poder nutritivo y de las propiedades organolépticas.</em> Para el caso de las enfermedades que pueden ocasionar en el hombre, estas pueden ser infecciones, intoxicaciones o alergias. Por lo tanto, las enfermedades transmitidas por alimentos son un conjunto de enfermedades que resultan de la ingestión de alimentos contaminados con algunos de los siguientes elementos:
     
     .bg_img_0
       .row.justify-content-center.mb-5
@@ -110,7 +106,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img_9.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Agentes químicos.
-            p plaguicidas, metales, aditivos.
+            p Plaguicidas, metales, aditivos.
 
         .col-md-6.col-xl-3.mb-2
           .tarjeta.fondo-dorado.p-4.h-100.text-center
@@ -120,7 +116,7 @@
             p Moluscos, vegetales, hongos.
   
     .row.justify-content-center.mb-2
-      h4.mb-5.text-center  En general las fuentes de contaminación son diversas. Entre las principales se encuentran:
+      h4.mb-5.text-center  En general, las fuentes de contaminación son diversas. Entre las principales se encuentran:
       .col-md-6.col-lg-4.mb-4
         .tarjeta-numerada.bg-06.p-5.h-100.img_1
           .tarjeta-numerada__numero
@@ -254,7 +250,6 @@
               h4.mb-3.text-center Sustancias químicas
               p.mb-0 Pesticidas, metales pesados, aditivos alimentarios, contaminantes ambientales.
     
-    p.mb-5 Las enfermedades transmitidas por alimentos representan un riesgo significativo para la salud pública, especialmente aquellas causadas por bacterias y virus que se encuentran en alimentos mal manipulados o contaminados. Según Cliver (1993), existen diversas bacterias responsables de infecciones e intoxicaciones alimentarias, cada una con síntomas específicos, periodos de latencia y alimentos típicos que actúan como vehículos de transmisión. La prevención de estas enfermedades se centra en medidas como la cocción adecuada, el control de higiene y la correcta refrigeración, las cuales son esenciales para evitar brotes y garantizar la seguridad alimentaria.
 
     .row.align-items-center.justify-content-center.mb-0
       .col-md-12.mb-3

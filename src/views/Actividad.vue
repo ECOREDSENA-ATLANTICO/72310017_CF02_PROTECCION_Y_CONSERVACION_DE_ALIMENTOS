@@ -37,7 +37,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Comisión del Codex Alimentarius.',
+              texto: 'Comisión del <em>Codex Alimentarius</em>.',
               esCorrecta: true,
             },
             {
@@ -70,7 +70,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Comisión del Codex Alimentarius.',
+              texto: 'Comisión del <em>Codex Alimentarius</em>.',
               esCorrecta: false,
             },
             {

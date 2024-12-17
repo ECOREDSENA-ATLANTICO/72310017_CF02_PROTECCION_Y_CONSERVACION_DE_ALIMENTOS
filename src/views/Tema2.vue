@@ -17,7 +17,7 @@
 
       .col-md-8.col-xl-4.mb-3.order-1.order-xl-2
         figure
-          img(src='@/assets/curso/temas/tema2/img_1.png', alt='Texto que describa la imagen')    
+          img(src='@/assets/curso/temas/tema2/img_1.png', alt='Imagen decorativa')    
       
     .bg_img_2
       .row.align-items-center.justify-content-center.mb-0
@@ -28,7 +28,7 @@
 
           figure
             img.mb-3(src='@/assets/curso/temas/tema2/img_2.png', alt='Los pasos previos a la aplicación del HACCP son: formación del equipo, descripción del producto, identificación del uso previsto, elaboración de diagrama de flujo y verificación in situ del diagrama de flujo.').mx-auto.w-75
-            figcaption Fuente: tomado de https://www.portaldeinocuidad.com/web/que-es-el-haccp/
+            figcaption Fuente: https://www.portaldeinocuidad.com/web/que-es-el-haccp/
 
     Separador
 
@@ -46,17 +46,17 @@
         
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img_8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_8.png', alt='Imagen decorativa')
       
       .py-4.py-md-5(titulo="Concepto" :icono="require('@/assets/curso/temas/tema2/img_4.png')")
         .row.p-4
           .col-md-7
             h4 
-            p El sistema HACCP identifica y controla los puntos críticos en el proceso de producción donde existen riesgos significativos de contaminación o proliferación de microorganismos en los alimentos. Estos puntos críticos de control son áreas donde se implementan medidas de vigilancia para evitar que los alimentos se contaminen, asegurando que todas las operaciones peligrosas sean monitoreadas y controladas (Codex Alimentarius, CAC/RCP-1, 1969, Rev. 3, 1997).
+            p El sistema HACCP identifica y controla los puntos críticos en el proceso de producción donde existen riesgos significativos de contaminación o proliferación de microorganismos en los alimentos. Estos puntos críticos de control son áreas donde se implementan medidas de vigilancia para evitar que los alimentos se contaminen, asegurando que todas las operaciones peligrosas sean monitoreadas y controladas (<em>Codex Alimentarius</em>, CAC/RCP-1, 1969, Rev. 3, 1997).
             
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img_9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_9.png', alt='Imagen decorativa')
       
       .py-4.py-md-5(titulo="Aplicación" :icono="require('@/assets/curso/temas/tema2/img_5.png')")
         .row.p-4
@@ -66,7 +66,7 @@
             
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img_10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_10.png', alt='Imagen decorativa')
       
       .py-4.py-md-5(titulo="Beneficios" :icono="require('@/assets/curso/temas/tema2/img_6.png')")
         .row.p-4
@@ -77,7 +77,7 @@
 
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img_11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_11.png', alt='Imagen decorativa')
 
       .py-4.py-md-5(titulo="Tendencias y regulaciones" :icono="require('@/assets/curso/temas/tema2/img_7.png')")
         .row.p-4
@@ -87,7 +87,7 @@
             
           .col-md-5.mb-3.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img_12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_12.png', alt='Imagen decorativa')
       
     .row.justify-content-center.align-items-center.mb-3
       .col-md-12
@@ -115,7 +115,7 @@
                 figcaption Fuente: tomado de https://www.portaldeinocuidad.com/web/que-es-el-haccp/
             .col-lg-6.mb-3
               .tarjeta.color_blanco.p-3
-                p El sistema HACCP (<em>Hazard Analysis and Critical Control Points</em> ) es un enfoque sistemático para garantizar la seguridad alimentaria mediante la identificación, evaluación y control de riesgos significativos en el proceso productivo de alimentos. A continuación, se detallan los siete principios fundamentales del HACCP:
+                p El sistema HACCP (<em>Hazard Analysis and Critical Control Points</em>) es un enfoque sistemático para garantizar la seguridad alimentaria mediante la identificación, evaluación y control de riesgos significativos en el proceso productivo de alimentos. A continuación, se detallan los siete principios fundamentales del HACCP:
 
     .row.align-items-center.justify-content-center.mb-1
       .col-md-12.mb-2
@@ -248,7 +248,7 @@
 
             .col-md-8.col-lg-6
               figure
-              img(src='@/assets/curso/temas/tema2/img_22.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img_22.png', alt='Imagen decorativa')
 
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-2
@@ -260,7 +260,7 @@
 
             .col-md-8.col-lg-6
               figure
-                img(src='@/assets/curso/temas/tema2/img_23.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img_23.png', alt='Imagen decorativa')
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
@@ -271,7 +271,7 @@
 
             .col-md-8.col-lg-6
               figure
-                img(src='@/assets/curso/temas/tema2/img_24.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img_24.png', alt='Imagen decorativa')
 
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-2
@@ -282,7 +282,7 @@
 
             .col-md-8.col-lg-6
               figure
-                img(src='@/assets/curso/temas/tema2/img_25.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img_25.png', alt='Imagen decorativa')
               
     Separador
 
